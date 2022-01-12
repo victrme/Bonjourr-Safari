@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4822E542278F533A008A45BB /* src in Resources */ = {isa = PBXBuildFile; fileRef = 4822E53D278F533A008A45BB /* src */; };
+		4822E543278F533A008A45BB /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 4822E53E278F533A008A45BB /* _locales */; };
+		4822E545278F533A008A45BB /* settings.html in Resources */ = {isa = PBXBuildFile; fileRef = 4822E540278F533A008A45BB /* settings.html */; };
+		4822E546278F533A008A45BB /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 4822E541278F533A008A45BB /* index.html */; };
+		4822E54D278F5CDB008A45BB /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4822E54C278F5CDB008A45BB /* manifest.json */; };
 		48F55C7C278F1EC900742FA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F55C7B278F1EC900742FA8 /* AppDelegate.swift */; };
 		48F55C80278F1EC900742FA8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 48F55C7E278F1EC900742FA8 /* Main.html */; };
 		48F55C82278F1EC900742FA8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 48F55C81278F1EC900742FA8 /* Icon.png */; };
@@ -17,14 +22,6 @@
 		48F55C8D278F1ECA00742FA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F55C8C278F1ECA00742FA8 /* Assets.xcassets */; };
 		48F55C96278F1ECA00742FA8 /* Bonjourr Startpage Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 48F55C95278F1ECA00742FA8 /* Bonjourr Startpage Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		48F55C9B278F1ECA00742FA8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F55C9A278F1ECA00742FA8 /* SafariWebExtensionHandler.swift */; };
-		48F55CB0278F1ECA00742FA8 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 48F55CA8278F1ECA00742FA8 /* index.html */; };
-		48F55CB1278F1ECA00742FA8 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 48F55CA9278F1ECA00742FA8 /* package.json */; };
-		48F55CB2278F1ECA00742FA8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 48F55CAA278F1ECA00742FA8 /* manifest.json */; };
-		48F55CB3278F1ECA00742FA8 /* gulpfile.js in Resources */ = {isa = PBXBuildFile; fileRef = 48F55CAB278F1ECA00742FA8 /* gulpfile.js */; };
-		48F55CB4278F1ECA00742FA8 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 48F55CAC278F1ECA00742FA8 /* _locales */; };
-		48F55CB5278F1ECA00742FA8 /* manifest.webmanifest in Resources */ = {isa = PBXBuildFile; fileRef = 48F55CAD278F1ECA00742FA8 /* manifest.webmanifest */; };
-		48F55CB6278F1ECA00742FA8 /* settings.html in Resources */ = {isa = PBXBuildFile; fileRef = 48F55CAE278F1ECA00742FA8 /* settings.html */; };
-		48F55CB7278F1ECA00742FA8 /* src in Resources */ = {isa = PBXBuildFile; fileRef = 48F55CAF278F1ECA00742FA8 /* src */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +49,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4822E53D278F533A008A45BB /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../Bonjourr/src; sourceTree = "<group>"; };
+		4822E53E278F533A008A45BB /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../Bonjourr/_locales; sourceTree = "<group>"; };
+		4822E540278F533A008A45BB /* settings.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = settings.html; path = ../../Bonjourr/settings.html; sourceTree = "<group>"; };
+		4822E541278F533A008A45BB /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ../../Bonjourr/index.html; sourceTree = "<group>"; };
+		4822E54C278F5CDB008A45BB /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		48F55C78278F1EC900742FA8 /* Bonjourr Startpage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bonjourr Startpage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F55C7B278F1EC900742FA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48F55C7F278F1EC900742FA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
@@ -68,14 +70,6 @@
 		48F55C9A278F1ECA00742FA8 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		48F55C9C278F1ECA00742FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48F55C9D278F1ECA00742FA8 /* Bonjourr_Startpage_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bonjourr_Startpage_Extension.entitlements; sourceTree = "<group>"; };
-		48F55CA8278F1ECA00742FA8 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = index.html; path = ../../source/index.html; sourceTree = "<group>"; };
-		48F55CA9278F1ECA00742FA8 /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = package.json; path = ../../source/package.json; sourceTree = "<group>"; };
-		48F55CAA278F1ECA00742FA8 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../source/manifest.json; sourceTree = "<group>"; };
-		48F55CAB278F1ECA00742FA8 /* gulpfile.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = gulpfile.js; path = ../../source/gulpfile.js; sourceTree = "<group>"; };
-		48F55CAC278F1ECA00742FA8 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../source/_locales; sourceTree = "<group>"; };
-		48F55CAD278F1ECA00742FA8 /* manifest.webmanifest */ = {isa = PBXFileReference; lastKnownFileType = text; name = manifest.webmanifest; path = ../../source/manifest.webmanifest; sourceTree = "<group>"; };
-		48F55CAE278F1ECA00742FA8 /* settings.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = settings.html; path = ../../source/settings.html; sourceTree = "<group>"; };
-		48F55CAF278F1ECA00742FA8 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../source/src; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,14 +149,11 @@
 		48F55CA7278F1ECA00742FA8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				48F55CA8278F1ECA00742FA8 /* index.html */,
-				48F55CA9278F1ECA00742FA8 /* package.json */,
-				48F55CAA278F1ECA00742FA8 /* manifest.json */,
-				48F55CAB278F1ECA00742FA8 /* gulpfile.js */,
-				48F55CAC278F1ECA00742FA8 /* _locales */,
-				48F55CAD278F1ECA00742FA8 /* manifest.webmanifest */,
-				48F55CAE278F1ECA00742FA8 /* settings.html */,
-				48F55CAF278F1ECA00742FA8 /* src */,
+				4822E541278F533A008A45BB /* index.html */,
+				4822E54C278F5CDB008A45BB /* manifest.json */,
+				4822E53E278F533A008A45BB /* _locales */,
+				4822E540278F533A008A45BB /* settings.html */,
+				4822E53D278F533A008A45BB /* src */,
 			);
 			name = Resources;
 			path = "Bonjourr Startpage Extension";
@@ -262,14 +253,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48F55CB1278F1ECA00742FA8 /* package.json in Resources */,
-				48F55CB2278F1ECA00742FA8 /* manifest.json in Resources */,
-				48F55CB3278F1ECA00742FA8 /* gulpfile.js in Resources */,
-				48F55CB7278F1ECA00742FA8 /* src in Resources */,
-				48F55CB6278F1ECA00742FA8 /* settings.html in Resources */,
-				48F55CB4278F1ECA00742FA8 /* _locales in Resources */,
-				48F55CB5278F1ECA00742FA8 /* manifest.webmanifest in Resources */,
-				48F55CB0278F1ECA00742FA8 /* index.html in Resources */,
+				4822E542278F533A008A45BB /* src in Resources */,
+				4822E546278F533A008A45BB /* index.html in Resources */,
+				4822E545278F533A008A45BB /* settings.html in Resources */,
+				4822E54D278F5CDB008A45BB /* manifest.json in Resources */,
+				4822E543278F533A008A45BB /* _locales in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
