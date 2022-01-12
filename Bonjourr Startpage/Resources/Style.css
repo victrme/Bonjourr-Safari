@@ -1,0 +1,55 @@
+* {
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    cursor: default;
+}
+
+:root {
+    color-scheme: light dark;
+    --spacing: 20px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: var(--spacing);
+    margin: 0 calc(var(--spacing) * 2);
+    height: 100%;
+
+    font: -apple-system-short-body;
+	color: #444;
+    text-align: left;
+}
+
+.top {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+h1 {
+	margin: 0;
+	margin-left: 20px;
+	font-size: 4em;
+	font-weight: 400;
+}
+
+body .state {
+	display: none
+}
+
+body.on .on,
+body.off .off {
+    display: block;
+}
+	
+button {
+    font-size: 1em;
+}
