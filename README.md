@@ -6,8 +6,9 @@
 
 ### Start
 
-- Clone this repo & the [main repo](https://github.com/victrme/Bonjourr)
+- Clone this repo & the [original repo](https://github.com/victrme/Bonjourr)
 - Open `Bonjourr Startpage.xcodeproj` in Xcode (version >13.0)
+- Copy `manifest-safari.json` from original repo and rename `manifest.json`
 
 ### In Safari
 
