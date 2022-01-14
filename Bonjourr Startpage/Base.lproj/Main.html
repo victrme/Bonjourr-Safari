@@ -9,21 +9,34 @@
     <link rel="stylesheet" href="../Style.css">
     <script src="../Script.js" defer></script>
 </head>
-<body>
+<body class="unknown">
 	<div class="top">
 		<img src="../Icon.png" width="128" height="128" alt="Bonjourr Startpage Icon">
 		<h1>Bonjourr</h1>
 	</div>
 	
+	<div class="state unknown">
+		<p>Open a new tab in Safari !<br />Or enable Bonjourr in Extensions preferences.</p>
+		<div>
+			<button class="close-window">Close</button>
+		</div>
+	</div>
+	
 	<div class="state off">
 		<h2>🔴 Disabled</h2>
 		<p>You can turn it on in Safari Extensions preferences.</p>
-		<button class="open-preferences">Open Preferences</button>
+		<div>
+			<button class="open-preferences">Open Preferences</button>
+		</div>
+		
 	</div>
 	
 	<div class="state on">
 		<h2>🟢 Enabled</h2>
 		<p>Open a new tab to use Bonjourr !</p>
+		<div>
+			<button class="close-window">Close</button>
+		</div>
 	</div>
 	
   </body>

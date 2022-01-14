@@ -34,4 +34,4 @@
 - [ ] Localization for App window
 - [ ] Fix popup removal styling bug
 - [ ] Geolocation prompt or no geolocation by default ?
-- [ ] Replace auto-generated app-icon & AccentColor
+- [x] Replace auto-generated app-icon & AccentColor

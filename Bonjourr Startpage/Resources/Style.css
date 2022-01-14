@@ -45,10 +45,17 @@ body .state {
 }
 
 body.on .on,
-body.off .off {
+body.off .off,
+body.unknown .unknown {
     display: block;
+}
+
+.state > div {
+	width: 100%;
+	text-align: center;
 }
 	
 button {
+	margin: 1em 0;
     font-size: 1em;
 }
