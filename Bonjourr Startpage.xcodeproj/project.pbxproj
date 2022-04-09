@@ -8,10 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4822E542278F533A008A45BB /* src in Resources */ = {isa = PBXBuildFile; fileRef = 4822E53D278F533A008A45BB /* src */; };
-		4822E543278F533A008A45BB /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 4822E53E278F533A008A45BB /* _locales */; };
 		4822E545278F533A008A45BB /* settings.html in Resources */ = {isa = PBXBuildFile; fileRef = 4822E540278F533A008A45BB /* settings.html */; };
 		4822E546278F533A008A45BB /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 4822E541278F533A008A45BB /* index.html */; };
-		4822E54D278F5CDB008A45BB /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4822E54C278F5CDB008A45BB /* manifest.json */; };
+		484E826D27F4477100EB8E08 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 484E826C27F4477100EB8E08 /* manifest.json */; };
 		48F55C7C278F1EC900742FA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F55C7B278F1EC900742FA8 /* AppDelegate.swift */; };
 		48F55C80278F1EC900742FA8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 48F55C7E278F1EC900742FA8 /* Main.html */; };
 		48F55C82278F1EC900742FA8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 48F55C81278F1EC900742FA8 /* Icon.png */; };
@@ -50,10 +49,10 @@
 
 /* Begin PBXFileReference section */
 		4822E53D278F533A008A45BB /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../Bonjourr/src; sourceTree = "<group>"; };
-		4822E53E278F533A008A45BB /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../Bonjourr/_locales; sourceTree = "<group>"; };
 		4822E540278F533A008A45BB /* settings.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = settings.html; path = ../../Bonjourr/settings.html; sourceTree = "<group>"; };
 		4822E541278F533A008A45BB /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ../../Bonjourr/index.html; sourceTree = "<group>"; };
-		4822E54C278F5CDB008A45BB /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		484E826C27F4477100EB8E08 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		484E826E27F447F400EB8E08 /* Bonjourr StartpageRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Bonjourr StartpageRelease.entitlements"; sourceTree = "<group>"; };
 		48F55C78278F1EC900742FA8 /* Bonjourr Startpage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bonjourr Startpage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F55C7B278F1EC900742FA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48F55C7F278F1EC900742FA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
@@ -112,6 +111,7 @@
 		48F55C7A278F1EC900742FA8 /* Bonjourr Startpage */ = {
 			isa = PBXGroup;
 			children = (
+				484E826E27F447F400EB8E08 /* Bonjourr StartpageRelease.entitlements */,
 				48F55C7B278F1EC900742FA8 /* AppDelegate.swift */,
 				48F55C87278F1EC900742FA8 /* ViewController.swift */,
 				48F55C89278F1EC900742FA8 /* Main.storyboard */,
@@ -150,8 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				4822E541278F533A008A45BB /* index.html */,
-				4822E54C278F5CDB008A45BB /* manifest.json */,
-				4822E53E278F533A008A45BB /* _locales */,
+				484E826C27F4477100EB8E08 /* manifest.json */,
 				4822E540278F533A008A45BB /* settings.html */,
 				4822E53D278F533A008A45BB /* src */,
 			);
@@ -256,8 +255,7 @@
 				4822E542278F533A008A45BB /* src in Resources */,
 				4822E546278F533A008A45BB /* index.html in Resources */,
 				4822E545278F533A008A45BB /* settings.html in Resources */,
-				4822E54D278F5CDB008A45BB /* manifest.json in Resources */,
-				4822E543278F533A008A45BB /* _locales in Resources */,
+				484E826D27F4477100EB8E08 /* manifest.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,12 +443,12 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.11.2;
+				MARKETING_VERSION = 1.12.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bonjourr.bonjourrStartpage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonjourr.bonjourrStartpage.safari;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -462,8 +460,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Bonjourr Startpage Extension/Bonjourr_Startpage_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Bonjourr Startpage Extension/Info.plist";
@@ -475,12 +475,12 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.11.2;
+				MARKETING_VERSION = 1.12.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bonjourr.bonjourrStartpage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonjourr.bonjourrStartpage.safari;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -511,7 +511,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.11.2;
+				MARKETING_VERSION = 1.12.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -531,10 +531,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Bonjourr Startpage/Bonjourr Startpage.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Bonjourr Startpage/Bonjourr StartpageRelease.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Bonjourr Startpage/Info.plist";
@@ -548,7 +550,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.11.2;
+				MARKETING_VERSION = 1.12.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
