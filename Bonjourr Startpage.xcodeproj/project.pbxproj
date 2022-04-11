@@ -11,6 +11,7 @@
 		4822E545278F533A008A45BB /* settings.html in Resources */ = {isa = PBXBuildFile; fileRef = 4822E540278F533A008A45BB /* settings.html */; };
 		4822E546278F533A008A45BB /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 4822E541278F533A008A45BB /* index.html */; };
 		484E826D27F4477100EB8E08 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 484E826C27F4477100EB8E08 /* manifest.json */; };
+		48AE25BB2801F93E0021566D /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 48AE25BA2801F93E0021566D /* _locales */; };
 		48F55C7C278F1EC900742FA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F55C7B278F1EC900742FA8 /* AppDelegate.swift */; };
 		48F55C80278F1EC900742FA8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 48F55C7E278F1EC900742FA8 /* Main.html */; };
 		48F55C82278F1EC900742FA8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 48F55C81278F1EC900742FA8 /* Icon.png */; };
@@ -53,6 +54,7 @@
 		4822E541278F533A008A45BB /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ../../Bonjourr/index.html; sourceTree = "<group>"; };
 		484E826C27F4477100EB8E08 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
 		484E826E27F447F400EB8E08 /* Bonjourr StartpageRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Bonjourr StartpageRelease.entitlements"; sourceTree = "<group>"; };
+		48AE25BA2801F93E0021566D /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		48F55C78278F1EC900742FA8 /* Bonjourr Startpage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bonjourr Startpage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F55C7B278F1EC900742FA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48F55C7F278F1EC900742FA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 		48F55CA7278F1ECA00742FA8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				48AE25BA2801F93E0021566D /* _locales */,
 				4822E541278F533A008A45BB /* index.html */,
 				484E826C27F4477100EB8E08 /* manifest.json */,
 				4822E540278F533A008A45BB /* settings.html */,
@@ -255,6 +258,7 @@
 				4822E542278F533A008A45BB /* src in Resources */,
 				4822E546278F533A008A45BB /* index.html in Resources */,
 				4822E545278F533A008A45BB /* settings.html in Resources */,
+				48AE25BB2801F93E0021566D /* _locales in Resources */,
 				484E826D27F4477100EB8E08 /* manifest.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,7 +435,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Bonjourr Startpage Extension/Bonjourr_Startpage_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Bonjourr Startpage Extension/Info.plist";
@@ -462,7 +466,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Bonjourr Startpage Extension/Bonjourr_Startpage_Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -497,7 +501,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Bonjourr Startpage/Bonjourr Startpage.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Bonjourr Startpage/Info.plist";
@@ -535,7 +539,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
