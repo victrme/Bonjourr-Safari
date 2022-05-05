@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4891627B2805BFDE009A9D9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4891627A2805BFDE009A9D9C /* Assets.xcassets */; };
+		489162812805D56C009A9D9C /* apple-touch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 489162802805D56C009A9D9C /* apple-touch-icon.png */; };
+		489162832805DF1F009A9D9C /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 489162822805DF1F009A9D9C /* _locales */; };
+		48B01F3628191F4B007A409C /* src in Resources */ = {isa = PBXBuildFile; fileRef = 48B01F3528191F4B007A409C /* src */; };
+		48B01F392819202C007A409C /* settings.html in Resources */ = {isa = PBXBuildFile; fileRef = 48B01F372819202C007A409C /* settings.html */; };
+		48B01F3A2819202C007A409C /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 48B01F382819202C007A409C /* index.html */; };
+		48CF69BA280584DE00E58007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CF69B9280584DE00E58007 /* AppDelegate.swift */; };
+		48CF69BE280584DE00E58007 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 48CF69BC280584DE00E58007 /* Main.html */; };
+		48CF69C2280584DE00E58007 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 48CF69C1280584DE00E58007 /* Style.css */; };
+		48CF69C4280584DE00E58007 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 48CF69C3280584DE00E58007 /* Script.js */; };
+		48CF69C6280584DE00E58007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CF69C5280584DE00E58007 /* ViewController.swift */; };
+		48CF69C9280584DE00E58007 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48CF69C7280584DE00E58007 /* Main.storyboard */; };
+		48CF69D4280584DF00E58007 /* bonjourrStartpage Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 48CF69D3280584DF00E58007 /* bonjourrStartpage Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		48CF69D9280584DF00E58007 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CF69D8280584DF00E58007 /* SafariWebExtensionHandler.swift */; };
+		48D5D849280DE10300CADBBD /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 48D5D848280DE10300CADBBD /* manifest.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48CF69D5280584DF00E58007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48CF69AE280584DE00E58007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48CF69D2280584DF00E58007;
+			remoteInfo = "bonjourrStartpage Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		48CF69E1280584DF00E58007 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				48CF69D4280584DF00E58007 /* bonjourrStartpage Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4891627A2805BFDE009A9D9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Github/Bonjourr-Safari/Bonjourr Startpage/Assets.xcassets"; sourceTree = "<group>"; };
+		489162802805D56C009A9D9C /* apple-touch-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon.png"; sourceTree = "<group>"; };
+		489162822805DF1F009A9D9C /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		48B01F3528191F4B007A409C /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		48B01F372819202C007A409C /* settings.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = settings.html; sourceTree = "<group>"; };
+		48B01F382819202C007A409C /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		48CF69B6280584DE00E58007 /* bonjourrStartpage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bonjourrStartpage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48CF69B9280584DE00E58007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48CF69BD280584DE00E58007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		48CF69C1280584DE00E58007 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		48CF69C3280584DE00E58007 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		48CF69C5280584DE00E58007 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48CF69C8280584DE00E58007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48CF69CC280584DF00E58007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48CF69CD280584DF00E58007 /* bonjourrStartpage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bonjourrStartpage.entitlements; sourceTree = "<group>"; };
+		48CF69CE280584DF00E58007 /* bonjourrStartpage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bonjourrStartpage.entitlements; sourceTree = "<group>"; };
+		48CF69D3280584DF00E58007 /* bonjourrStartpage Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "bonjourrStartpage Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48CF69D8280584DF00E58007 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		48CF69DA280584DF00E58007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48CF69DB280584DF00E58007 /* bonjourrStartpage_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bonjourrStartpage_Extension.entitlements; sourceTree = "<group>"; };
+		48D5D848280DE10300CADBBD /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48CF69B3280584DE00E58007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48CF69D0280584DF00E58007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48CF69AD280584DE00E58007 = {
+			isa = PBXGroup;
+			children = (
+				48CF69B8280584DE00E58007 /* bonjourrStartpage */,
+				48CF69D7280584DF00E58007 /* bonjourrStartpage Extension */,
+				48CF69B7280584DE00E58007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48CF69B7280584DE00E58007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48CF69B6280584DE00E58007 /* bonjourrStartpage.app */,
+				48CF69D3280584DF00E58007 /* bonjourrStartpage Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48CF69B8280584DE00E58007 /* bonjourrStartpage */ = {
+			isa = PBXGroup;
+			children = (
+				48CF69B9280584DE00E58007 /* AppDelegate.swift */,
+				48CF69C5280584DE00E58007 /* ViewController.swift */,
+				48CF69C7280584DE00E58007 /* Main.storyboard */,
+				4891627A2805BFDE009A9D9C /* Assets.xcassets */,
+				48CF69CC280584DF00E58007 /* Info.plist */,
+				48CF69CD280584DF00E58007 /* bonjourrStartpage.entitlements */,
+				48CF69CE280584DF00E58007 /* bonjourrStartpage.entitlements */,
+				48CF69BB280584DE00E58007 /* Resources */,
+			);
+			path = bonjourrStartpage;
+			sourceTree = "<group>";
+		};
+		48CF69BB280584DE00E58007 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				48CF69BC280584DE00E58007 /* Main.html */,
+				489162802805D56C009A9D9C /* apple-touch-icon.png */,
+				48CF69C1280584DE00E58007 /* Style.css */,
+				48CF69C3280584DE00E58007 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		48CF69D7280584DF00E58007 /* bonjourrStartpage Extension */ = {
+			isa = PBXGroup;
+			children = (
+				48CF69E5280584DF00E58007 /* Resources */,
+				48CF69D8280584DF00E58007 /* SafariWebExtensionHandler.swift */,
+				48CF69DA280584DF00E58007 /* Info.plist */,
+				48CF69DB280584DF00E58007 /* bonjourrStartpage_Extension.entitlements */,
+			);
+			path = "bonjourrStartpage Extension";
+			sourceTree = "<group>";
+		};
+		48CF69E5280584DF00E58007 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				48D5D848280DE10300CADBBD /* manifest.json */,
+				48B01F382819202C007A409C /* index.html */,
+				48B01F372819202C007A409C /* settings.html */,
+				48B01F3528191F4B007A409C /* src */,
+				489162822805DF1F009A9D9C /* _locales */,
+			);
+			name = Resources;
+			path = "bonjourrStartpage Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48CF69B5280584DE00E58007 /* bonjourrStartpage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48CF69E2280584DF00E58007 /* Build configuration list for PBXNativeTarget "bonjourrStartpage" */;
+			buildPhases = (
+				48CF69B2280584DE00E58007 /* Sources */,
+				48CF69B3280584DE00E58007 /* Frameworks */,
+				48CF69B4280584DE00E58007 /* Resources */,
+				48CF69E1280584DF00E58007 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48CF69D6280584DF00E58007 /* PBXTargetDependency */,
+			);
+			name = bonjourrStartpage;
+			productName = bonjourrStartpage;
+			productReference = 48CF69B6280584DE00E58007 /* bonjourrStartpage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48CF69D2280584DF00E58007 /* bonjourrStartpage Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48CF69DE280584DF00E58007 /* Build configuration list for PBXNativeTarget "bonjourrStartpage Extension" */;
+			buildPhases = (
+				48CF69CF280584DF00E58007 /* Sources */,
+				48CF69D0280584DF00E58007 /* Frameworks */,
+				48CF69D1280584DF00E58007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bonjourrStartpage Extension";
+			productName = "bonjourrStartpage Extension";
+			productReference = 48CF69D3280584DF00E58007 /* bonjourrStartpage Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48CF69AE280584DE00E58007 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					48CF69B5280584DE00E58007 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					48CF69D2280584DF00E58007 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 48CF69B1280584DE00E58007 /* Build configuration list for PBXProject "bonjourrStartpage" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48CF69AD280584DE00E58007;
+			productRefGroup = 48CF69B7280584DE00E58007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48CF69B5280584DE00E58007 /* bonjourrStartpage */,
+				48CF69D2280584DF00E58007 /* bonjourrStartpage Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48CF69B4280584DE00E58007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48CF69C9280584DE00E58007 /* Main.storyboard in Resources */,
+				48CF69C4280584DE00E58007 /* Script.js in Resources */,
+				48CF69BE280584DE00E58007 /* Main.html in Resources */,
+				4891627B2805BFDE009A9D9C /* Assets.xcassets in Resources */,
+				489162812805D56C009A9D9C /* apple-touch-icon.png in Resources */,
+				48CF69C2280584DE00E58007 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48CF69D1280584DF00E58007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B01F3A2819202C007A409C /* index.html in Resources */,
+				48B01F3628191F4B007A409C /* src in Resources */,
+				48B01F392819202C007A409C /* settings.html in Resources */,
+				489162832805DF1F009A9D9C /* _locales in Resources */,
+				48D5D849280DE10300CADBBD /* manifest.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48CF69B2280584DE00E58007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48CF69C6280584DE00E58007 /* ViewController.swift in Sources */,
+				48CF69BA280584DE00E58007 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48CF69CF280584DF00E58007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48CF69D9280584DF00E58007 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48CF69D6280584DF00E58007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48CF69D2280584DF00E58007 /* bonjourrStartpage Extension */;
+			targetProxy = 48CF69D5280584DF00E58007 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48CF69BC280584DE00E58007 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48CF69BD280584DE00E58007 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		48CF69C7280584DE00E58007 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48CF69C8280584DE00E58007 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48CF69DC280584DF00E58007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48CF69DD280584DF00E58007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		48CF69DF280584DF00E58007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "bonjourrStartpage Extension/bonjourrStartpage_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = GZK4VLGQ5A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "bonjourrStartpage Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "bonjourrStartpage Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.13.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonjourr.bonjourrStartpage.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		48CF69E0280584DF00E58007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "bonjourrStartpage Extension/bonjourrStartpage_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = GZK4VLGQ5A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "bonjourrStartpage Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "bonjourrStartpage Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.13.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonjourr.bonjourrStartpage.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		48CF69E3280584DF00E58007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = bonjourrStartpage/bonjourrStartpage.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = GZK4VLGQ5A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bonjourrStartpage/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bonjourr Startpage";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.13.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonjourr.bonjourrStartpage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		48CF69E4280584DF00E58007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = bonjourrStartpage/bonjourrStartpage.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = GZK4VLGQ5A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bonjourrStartpage/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bonjourr Startpage";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.13.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonjourr.bonjourrStartpage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48CF69B1280584DE00E58007 /* Build configuration list for PBXProject "bonjourrStartpage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48CF69DC280584DF00E58007 /* Debug */,
+				48CF69DD280584DF00E58007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48CF69DE280584DF00E58007 /* Build configuration list for PBXNativeTarget "bonjourrStartpage Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48CF69DF280584DF00E58007 /* Debug */,
+				48CF69E0280584DF00E58007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48CF69E2280584DF00E58007 /* Build configuration list for PBXNativeTarget "bonjourrStartpage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48CF69E3280584DF00E58007 /* Debug */,
+				48CF69E4280584DF00E58007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48CF69AE280584DE00E58007 /* Project object */;
+}
