@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4891627B2805BFDE009A9D9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4891627A2805BFDE009A9D9C /* Assets.xcassets */; };
 		489162812805D56C009A9D9C /* apple-touch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 489162802805D56C009A9D9C /* apple-touch-icon.png */; };
 		489162832805DF1F009A9D9C /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 489162822805DF1F009A9D9C /* _locales */; };
 		48B01F3628191F4B007A409C /* src in Resources */ = {isa = PBXBuildFile; fileRef = 48B01F3528191F4B007A409C /* src */; };
 		48B01F392819202C007A409C /* settings.html in Resources */ = {isa = PBXBuildFile; fileRef = 48B01F372819202C007A409C /* settings.html */; };
 		48B01F3A2819202C007A409C /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 48B01F382819202C007A409C /* index.html */; };
+		48C99861282A43420067263A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C99860282A43420067263A /* Assets.xcassets */; };
 		48CF69BA280584DE00E58007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CF69B9280584DE00E58007 /* AppDelegate.swift */; };
 		48CF69BE280584DE00E58007 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 48CF69BC280584DE00E58007 /* Main.html */; };
 		48CF69C2280584DE00E58007 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 48CF69C1280584DE00E58007 /* Style.css */; };
@@ -49,13 +49,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4891627A2805BFDE009A9D9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Github/Bonjourr-Safari/Bonjourr Startpage/Assets.xcassets"; sourceTree = "<group>"; };
 		489162802805D56C009A9D9C /* apple-touch-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon.png"; sourceTree = "<group>"; };
 		489162822805DF1F009A9D9C /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		48B01F3528191F4B007A409C /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
 		48B01F372819202C007A409C /* settings.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = settings.html; sourceTree = "<group>"; };
 		48B01F382819202C007A409C /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		48CF69B6280584DE00E58007 /* bonjourrStartpage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bonjourrStartpage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C99860282A43420067263A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48CF69B6280584DE00E58007 /* Bonjourr Startpage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bonjourr Startpage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48CF69B9280584DE00E58007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48CF69BD280584DE00E58007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		48CF69C1280584DE00E58007 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 		48CF69B7280584DE00E58007 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				48CF69B6280584DE00E58007 /* bonjourrStartpage.app */,
+				48CF69B6280584DE00E58007 /* Bonjourr Startpage.app */,
 				48CF69D3280584DF00E58007 /* bonjourrStartpage Extension.appex */,
 			);
 			name = Products;
@@ -113,8 +113,8 @@
 			children = (
 				48CF69B9280584DE00E58007 /* AppDelegate.swift */,
 				48CF69C5280584DE00E58007 /* ViewController.swift */,
+				48C99860282A43420067263A /* Assets.xcassets */,
 				48CF69C7280584DE00E58007 /* Main.storyboard */,
-				4891627A2805BFDE009A9D9C /* Assets.xcassets */,
 				48CF69CC280584DF00E58007 /* Info.plist */,
 				48CF69CD280584DF00E58007 /* bonjourrStartpage.entitlements */,
 				48CF69CE280584DF00E58007 /* bonjourrStartpage.entitlements */,
@@ -177,7 +177,7 @@
 			);
 			name = bonjourrStartpage;
 			productName = bonjourrStartpage;
-			productReference = 48CF69B6280584DE00E58007 /* bonjourrStartpage.app */;
+			productReference = 48CF69B6280584DE00E58007 /* Bonjourr Startpage.app */;
 			productType = "com.apple.product-type.application";
 		};
 		48CF69D2280584DF00E58007 /* bonjourrStartpage Extension */ = {
@@ -242,8 +242,8 @@
 				48CF69C9280584DE00E58007 /* Main.storyboard in Resources */,
 				48CF69C4280584DE00E58007 /* Script.js in Resources */,
 				48CF69BE280584DE00E58007 /* Main.html in Resources */,
-				4891627B2805BFDE009A9D9C /* Assets.xcassets in Resources */,
 				489162812805D56C009A9D9C /* apple-touch-icon.png in Resources */,
+				48C99861282A43420067263A /* Assets.xcassets in Resources */,
 				48CF69C2280584DE00E58007 /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,7 +501,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = bonjourrStartpage/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Bonjourr Startpage";
+				INFOPLIST_KEY_CFBundleDisplayName = bonjourrStartpage;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -519,7 +519,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bonjourr.bonjourrStartpage;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bonjourr Startpage";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -539,7 +539,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = bonjourrStartpage/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Bonjourr Startpage";
+				INFOPLIST_KEY_CFBundleDisplayName = bonjourrStartpage;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -557,7 +557,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bonjourr.bonjourrStartpage;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bonjourr Startpage";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
