@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  bonjourrStartpage
+//  macOS (App)
 //
-//  Created by Victor Azevedo on 12/04/2022.
+//  Created by Victor Azevedo on 10/05/2022.
 //
 
 import Cocoa
