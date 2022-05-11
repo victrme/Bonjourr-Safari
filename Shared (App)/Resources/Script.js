@@ -1,12 +1,15 @@
 function show(platform, enabled) {
-    document.body.classList.add(`platform-${platform}`);
-
-    if (typeof enabled === "boolean") {
-        document.body.classList.toggle(`state-on`, enabled);
-        document.body.classList.toggle(`state-off`, !enabled);
-    } else {
-        document.body.classList.remove(`state-on`);
-        document.body.classList.remove(`state-off`);
+    
+    // Removed iOS condition because it doesn't seem to be working
+    
+    if (platform === "mac") {
+        document.querySelector('.state').textContent = enabled ? "Bonjourr is active, you can close this window and open a new tab on Safari !" : "Bonjourr is not active, check Safari preferences !"
+        
+        const button = document.querySelector("button.open-preferences")
+        button.style.display = "block"
+        button.addEventListener("click", openPreferences);
+        
+       document.querySelector('h1').style.display = "inline"
     }
 }
 
@@ -14,4 +17,7 @@ function openPreferences() {
     webkit.messageHandlers.controller.postMessage("open-preferences");
 }
 
-document.querySelector("button.open-preferences").addEventListener("click", openPreferences);
+window.onload = function() {
+    document.body.style.opacity = "1"
+
+}

@@ -37,6 +37,7 @@ class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMess
     }
 
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+       
 #if os(iOS)
         webView.evaluateJavaScript("show('ios')")
 #elseif os(macOS)

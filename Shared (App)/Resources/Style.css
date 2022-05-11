@@ -21,6 +21,8 @@ body {
     font-weight: light;
     font-family: -apple-system,system-ui;
     background: #fff;
+    opacity: 0;
+    transition: opacity .2s .05s;
 }
 
 .logo {
@@ -34,6 +36,7 @@ body {
 .logo h1 {
     font-size: 3em;
     font-weight: 300;
+    display: none;
 }
 
 .logo img {
@@ -50,6 +53,7 @@ body {
 }
 
 button {
+    display: none;
     font-family: inherit;
     font-weight: inherit;
     font-size: 1em;
@@ -60,6 +64,7 @@ button {
     border-radius: 8px;
     color: #444;
     cursor: pointer;
+    pointer-events: none;
     transition: all .2s;
 }
 
@@ -70,3 +75,11 @@ button:hover {
 button:active {
     filter: brightness(.88)
 }
+
+@media (max-width: 450px) {
+    
+    .state {
+     
+    }
+}
+
