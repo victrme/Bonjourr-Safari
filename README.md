@@ -6,32 +6,20 @@
 
 ### Start
 
-- Clone this repo & the [original repo](https://github.com/victrme/Bonjourr)
-- Open `Bonjourr Startpage.xcodeproj` in Xcode (version >13.0)
-- Copy `manifest-safari.json` from original repo and rename `manifest.json`
+-   Clone this repo & the [main repo](https://github.com/victrme/Bonjourr)
+-   In that folder: `npm i` `npm run chrome`
+-   Open `BonjourrStartpage.xcodeproj` in Xcode (version >13.0)
+-   Link `release/chrome` files to `Shared (Extension)` in Xcode
+-   Manually build for each changes in the main repo (😞)
 
 ### In Safari
 
-- Safari > Preferences > Advanced tab
-- **Show Develop menu in menu bar**
-- Develop > **Allow Unsigned Extensions**
-
-
-### If Extension Ressources are missing
-- In `Bonjourr Startpage > Bonjourr Startpage Extension > Ressources`
-- **Add Files to "Bonjourr Startpage Ext...**
-- Select: `index.html` `settings.html` `/src/` `/locales/` & `manifest.json`
-- Check only **Create folder references** & **Add to targets "Bonj... Extension"** (should be default)
+-   Safari > Preferences > Advanced tab
+-   **Show Develop menu in menu bar**
+-   Develop > **Allow Unsigned Extensions**
 
 # Features not working
 
-- Bookmarks import (browser.bookmarks still not available on safari webExtension API)
-- Settings synchronisation (settings saves in local but doesn't save on cloud)
-- Something not listed here ? Open an [issue on the main repo](https://github.com/victrme/Bonjourr/issues) !
-
-# Todo
-
-- [ ] Localization for App window
-- [ ] Fix popup removal styling bug
-- [ ] Geolocation prompt or no geolocation by default ?
-- [x] Replace auto-generated app-icon & AccentColor
+-   Bookmarks import (browser.bookmarks still not available on safari webExtension API)
+-   Settings synchronisation (settings saves in local but doesn't save on cloud)
+-   Something not listed here ? Open an [issue on the main repo](https://github.com/victrme/Bonjourr/issues) !

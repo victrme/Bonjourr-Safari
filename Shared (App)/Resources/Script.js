@@ -7,6 +7,7 @@ function show(platform, enabled) {
         
         const button = document.querySelector("button.open-preferences")
         button.style.display = "block"
+        button.style.pointerEvents = "all"
         button.addEventListener("click", openPreferences);
         
        document.querySelector('h1').style.display = "inline"
