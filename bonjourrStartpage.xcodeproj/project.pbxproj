@@ -7,80 +7,138 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		489162812805D56C009A9D9C /* apple-touch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 489162802805D56C009A9D9C /* apple-touch-icon.png */; };
-		489162832805DF1F009A9D9C /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 489162822805DF1F009A9D9C /* _locales */; };
-		48B01F3628191F4B007A409C /* src in Resources */ = {isa = PBXBuildFile; fileRef = 48B01F3528191F4B007A409C /* src */; };
-		48B01F392819202C007A409C /* settings.html in Resources */ = {isa = PBXBuildFile; fileRef = 48B01F372819202C007A409C /* settings.html */; };
-		48B01F3A2819202C007A409C /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 48B01F382819202C007A409C /* index.html */; };
-		48C99861282A43420067263A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C99860282A43420067263A /* Assets.xcassets */; };
-		48CF69BA280584DE00E58007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CF69B9280584DE00E58007 /* AppDelegate.swift */; };
-		48CF69BE280584DE00E58007 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 48CF69BC280584DE00E58007 /* Main.html */; };
-		48CF69C2280584DE00E58007 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 48CF69C1280584DE00E58007 /* Style.css */; };
-		48CF69C4280584DE00E58007 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 48CF69C3280584DE00E58007 /* Script.js */; };
-		48CF69C6280584DE00E58007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CF69C5280584DE00E58007 /* ViewController.swift */; };
-		48CF69C9280584DE00E58007 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48CF69C7280584DE00E58007 /* Main.storyboard */; };
-		48CF69D4280584DF00E58007 /* bonjourrStartpage Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 48CF69D3280584DF00E58007 /* bonjourrStartpage Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		48CF69D9280584DF00E58007 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CF69D8280584DF00E58007 /* SafariWebExtensionHandler.swift */; };
-		48D5D849280DE10300CADBBD /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 48D5D848280DE10300CADBBD /* manifest.json */; };
+		485C27E5282A59F400B5466A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C27E4282A59F400B5466A /* AppDelegate.swift */; };
+		485C27E7282A59F400B5466A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C27E6282A59F400B5466A /* SceneDelegate.swift */; };
+		485C27EA282A59F400B5466A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485C27E8282A59F400B5466A /* LaunchScreen.storyboard */; };
+		485C27ED282A59F400B5466A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485C27EB282A59F400B5466A /* Main.storyboard */; };
+		485C27F6282A59F400B5466A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C27F5282A59F400B5466A /* AppDelegate.swift */; };
+		485C27F9282A59F400B5466A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485C27F7282A59F400B5466A /* Main.storyboard */; };
+		485C2800282A59F400B5466A /* bonjourrStartpage Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 485C27FF282A59F400B5466A /* bonjourrStartpage Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		485C280A282A59F400B5466A /* bonjourrStartpage Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 485C2809282A59F400B5466A /* bonjourrStartpage Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		485C2810282A59F400B5466A /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 485C27CB282A59F300B5466A /* Main.html */; };
+		485C2811282A59F400B5466A /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 485C27CB282A59F300B5466A /* Main.html */; };
+		485C2814282A59F400B5466A /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 485C27CE282A59F300B5466A /* Style.css */; };
+		485C2815282A59F400B5466A /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 485C27CE282A59F300B5466A /* Style.css */; };
+		485C2816282A59F400B5466A /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 485C27CF282A59F300B5466A /* Script.js */; };
+		485C2817282A59F400B5466A /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 485C27CF282A59F300B5466A /* Script.js */; };
+		485C2818282A59F400B5466A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C27D0282A59F300B5466A /* ViewController.swift */; };
+		485C2819282A59F400B5466A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C27D0282A59F300B5466A /* ViewController.swift */; };
+		485C281C282A59F400B5466A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C27D3282A59F400B5466A /* SafariWebExtensionHandler.swift */; };
+		485C281D282A59F400B5466A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C27D3282A59F400B5466A /* SafariWebExtensionHandler.swift */; };
+		485C283F282A5A1B00B5466A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485C283E282A5A1B00B5466A /* Assets.xcassets */; };
+		485C2840282A5A1B00B5466A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485C283E282A5A1B00B5466A /* Assets.xcassets */; };
+		485C285B282A5D4500B5466A /* apple-touch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 485C285A282A5D4500B5466A /* apple-touch-icon.png */; };
+		485C285C282A5D4500B5466A /* apple-touch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 485C285A282A5D4500B5466A /* apple-touch-icon.png */; };
+		48C93E3A293602E600BF7FB9 /* settings.html in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E34293602E600BF7FB9 /* settings.html */; };
+		48C93E3B293602E600BF7FB9 /* settings.html in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E34293602E600BF7FB9 /* settings.html */; };
+		48C93E3C293602E600BF7FB9 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E35293602E600BF7FB9 /* background.html */; };
+		48C93E3D293602E600BF7FB9 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E35293602E600BF7FB9 /* background.html */; };
+		48C93E3E293602E600BF7FB9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E36293602E600BF7FB9 /* manifest.json */; };
+		48C93E3F293602E600BF7FB9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E36293602E600BF7FB9 /* manifest.json */; };
+		48C93E40293602E600BF7FB9 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E37293602E600BF7FB9 /* index.html */; };
+		48C93E41293602E600BF7FB9 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E37293602E600BF7FB9 /* index.html */; };
+		48C93E42293602E600BF7FB9 /* src in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E38293602E600BF7FB9 /* src */; };
+		48C93E43293602E600BF7FB9 /* src in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E38293602E600BF7FB9 /* src */; };
+		48C93E44293602E600BF7FB9 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E39293602E600BF7FB9 /* _locales */; };
+		48C93E45293602E600BF7FB9 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E39293602E600BF7FB9 /* _locales */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		48CF69D5280584DF00E58007 /* PBXContainerItemProxy */ = {
+		485C2801282A59F400B5466A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 48CF69AE280584DE00E58007 /* Project object */;
+			containerPortal = 485C27C5282A59F300B5466A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 48CF69D2280584DF00E58007;
-			remoteInfo = "bonjourrStartpage Extension";
+			remoteGlobalIDString = 485C27FE282A59F400B5466A;
+			remoteInfo = "bonjourrStartpage Extension (iOS)";
+		};
+		485C280B282A59F400B5466A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 485C27C5282A59F300B5466A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 485C2808282A59F400B5466A;
+			remoteInfo = "bonjourrStartpage Extension (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		48CF69E1280584DF00E58007 /* Embed App Extensions */ = {
+		485C2833282A59F400B5466A /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				48CF69D4280584DF00E58007 /* bonjourrStartpage Extension.appex in Embed App Extensions */,
+				485C2800282A59F400B5466A /* bonjourrStartpage Extension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485C283A282A59F400B5466A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				485C280A282A59F400B5466A /* bonjourrStartpage Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		489162802805D56C009A9D9C /* apple-touch-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon.png"; sourceTree = "<group>"; };
-		489162822805DF1F009A9D9C /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
-		48B01F3528191F4B007A409C /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
-		48B01F372819202C007A409C /* settings.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = settings.html; sourceTree = "<group>"; };
-		48B01F382819202C007A409C /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		48C99860282A43420067263A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		48CF69B6280584DE00E58007 /* Bonjourr Startpage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bonjourr Startpage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		48CF69B9280584DE00E58007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		48CF69BD280584DE00E58007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		48CF69C1280584DE00E58007 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
-		48CF69C3280584DE00E58007 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
-		48CF69C5280584DE00E58007 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		48CF69C8280584DE00E58007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		48CF69CC280584DF00E58007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48CF69CD280584DF00E58007 /* bonjourrStartpage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bonjourrStartpage.entitlements; sourceTree = "<group>"; };
-		48CF69CE280584DF00E58007 /* bonjourrStartpage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bonjourrStartpage.entitlements; sourceTree = "<group>"; };
-		48CF69D3280584DF00E58007 /* bonjourrStartpage Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "bonjourrStartpage Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		48CF69D8280584DF00E58007 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		48CF69DA280584DF00E58007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48CF69DB280584DF00E58007 /* bonjourrStartpage_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bonjourrStartpage_Extension.entitlements; sourceTree = "<group>"; };
-		48D5D848280DE10300CADBBD /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		485C27CC282A59F300B5466A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		485C27CE282A59F300B5466A /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		485C27CF282A59F300B5466A /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		485C27D0282A59F300B5466A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		485C27D3282A59F400B5466A /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		485C27E1282A59F400B5466A /* Bonjourr Startpage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bonjourr Startpage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		485C27E4282A59F400B5466A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		485C27E6282A59F400B5466A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		485C27E9282A59F400B5466A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		485C27EC282A59F400B5466A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		485C27EE282A59F400B5466A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485C27F3282A59F400B5466A /* Bonjourr Startpage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bonjourr Startpage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		485C27F5282A59F400B5466A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		485C27F8282A59F400B5466A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		485C27FA282A59F400B5466A /* bonjourrStartpage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bonjourrStartpage.entitlements; sourceTree = "<group>"; };
+		485C27FF282A59F400B5466A /* bonjourrStartpage Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "bonjourrStartpage Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		485C2804282A59F400B5466A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485C2809282A59F400B5466A /* bonjourrStartpage Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "bonjourrStartpage Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		485C280E282A59F400B5466A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485C280F282A59F400B5466A /* bonjourrStartpage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bonjourrStartpage.entitlements; sourceTree = "<group>"; };
+		485C283E282A5A1B00B5466A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		485C285A282A5D4500B5466A /* apple-touch-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon.png"; sourceTree = "<group>"; };
+		48C93E34293602E600BF7FB9 /* settings.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = settings.html; path = ../../Bonjourr/release/safari/settings.html; sourceTree = "<group>"; };
+		48C93E35293602E600BF7FB9 /* background.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = background.html; path = ../../Bonjourr/release/safari/background.html; sourceTree = "<group>"; };
+		48C93E36293602E600BF7FB9 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = manifest.json; path = ../../Bonjourr/release/safari/manifest.json; sourceTree = "<group>"; };
+		48C93E37293602E600BF7FB9 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ../../Bonjourr/release/safari/index.html; sourceTree = "<group>"; };
+		48C93E38293602E600BF7FB9 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../Bonjourr/release/safari/src; sourceTree = "<group>"; };
+		48C93E39293602E600BF7FB9 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../Bonjourr/release/safari/_locales; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		48CF69B3280584DE00E58007 /* Frameworks */ = {
+		485C27DE282A59F400B5466A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48CF69D0280584DF00E58007 /* Frameworks */ = {
+		485C27F0282A59F400B5466A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485C27FC282A59F400B5466A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485C2806282A59F400B5466A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,132 +148,204 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		48CF69AD280584DE00E58007 = {
+		485C27C4282A59F300B5466A = {
 			isa = PBXGroup;
 			children = (
-				48CF69B8280584DE00E58007 /* bonjourrStartpage */,
-				48CF69D7280584DF00E58007 /* bonjourrStartpage Extension */,
-				48CF69B7280584DE00E58007 /* Products */,
+				485C27C9282A59F300B5466A /* Shared (App) */,
+				485C27D2282A59F400B5466A /* Shared (Extension) */,
+				485C27E3282A59F400B5466A /* iOS (App) */,
+				485C27F4282A59F400B5466A /* macOS (App) */,
+				485C2803282A59F400B5466A /* iOS (Extension) */,
+				485C280D282A59F400B5466A /* macOS (Extension) */,
+				485C27E2282A59F400B5466A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		48CF69B7280584DE00E58007 /* Products */ = {
+		485C27C9282A59F300B5466A /* Shared (App) */ = {
 			isa = PBXGroup;
 			children = (
-				48CF69B6280584DE00E58007 /* Bonjourr Startpage.app */,
-				48CF69D3280584DF00E58007 /* bonjourrStartpage Extension.appex */,
+				485C27D0282A59F300B5466A /* ViewController.swift */,
+				485C283E282A5A1B00B5466A /* Assets.xcassets */,
+				485C27CA282A59F300B5466A /* Resources */,
 			);
-			name = Products;
+			path = "Shared (App)";
 			sourceTree = "<group>";
 		};
-		48CF69B8280584DE00E58007 /* bonjourrStartpage */ = {
+		485C27CA282A59F300B5466A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				48CF69B9280584DE00E58007 /* AppDelegate.swift */,
-				48CF69C5280584DE00E58007 /* ViewController.swift */,
-				48C99860282A43420067263A /* Assets.xcassets */,
-				48CF69C7280584DE00E58007 /* Main.storyboard */,
-				48CF69CC280584DF00E58007 /* Info.plist */,
-				48CF69CD280584DF00E58007 /* bonjourrStartpage.entitlements */,
-				48CF69CE280584DF00E58007 /* bonjourrStartpage.entitlements */,
-				48CF69BB280584DE00E58007 /* Resources */,
-			);
-			path = bonjourrStartpage;
-			sourceTree = "<group>";
-		};
-		48CF69BB280584DE00E58007 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				48CF69BC280584DE00E58007 /* Main.html */,
-				489162802805D56C009A9D9C /* apple-touch-icon.png */,
-				48CF69C1280584DE00E58007 /* Style.css */,
-				48CF69C3280584DE00E58007 /* Script.js */,
+				485C27CB282A59F300B5466A /* Main.html */,
+				485C285A282A5D4500B5466A /* apple-touch-icon.png */,
+				485C27CE282A59F300B5466A /* Style.css */,
+				485C27CF282A59F300B5466A /* Script.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		48CF69D7280584DF00E58007 /* bonjourrStartpage Extension */ = {
+		485C27D2282A59F400B5466A /* Shared (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				48CF69E5280584DF00E58007 /* Resources */,
-				48CF69D8280584DF00E58007 /* SafariWebExtensionHandler.swift */,
-				48CF69DA280584DF00E58007 /* Info.plist */,
-				48CF69DB280584DF00E58007 /* bonjourrStartpage_Extension.entitlements */,
+				48C93E39293602E600BF7FB9 /* _locales */,
+				48C93E35293602E600BF7FB9 /* background.html */,
+				48C93E37293602E600BF7FB9 /* index.html */,
+				48C93E36293602E600BF7FB9 /* manifest.json */,
+				48C93E34293602E600BF7FB9 /* settings.html */,
+				48C93E38293602E600BF7FB9 /* src */,
+				485C27D3282A59F400B5466A /* SafariWebExtensionHandler.swift */,
 			);
-			path = "bonjourrStartpage Extension";
+			path = "Shared (Extension)";
 			sourceTree = "<group>";
 		};
-		48CF69E5280584DF00E58007 /* Resources */ = {
+		485C27E2282A59F400B5466A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				48D5D848280DE10300CADBBD /* manifest.json */,
-				48B01F382819202C007A409C /* index.html */,
-				48B01F372819202C007A409C /* settings.html */,
-				48B01F3528191F4B007A409C /* src */,
-				489162822805DF1F009A9D9C /* _locales */,
+				485C27E1282A59F400B5466A /* Bonjourr Startpage.app */,
+				485C27F3282A59F400B5466A /* Bonjourr Startpage.app */,
+				485C27FF282A59F400B5466A /* bonjourrStartpage Extension.appex */,
+				485C2809282A59F400B5466A /* bonjourrStartpage Extension.appex */,
 			);
-			name = Resources;
-			path = "bonjourrStartpage Extension";
-			sourceTree = SOURCE_ROOT;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		485C27E3282A59F400B5466A /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				485C27E4282A59F400B5466A /* AppDelegate.swift */,
+				485C27E6282A59F400B5466A /* SceneDelegate.swift */,
+				485C27E8282A59F400B5466A /* LaunchScreen.storyboard */,
+				485C27EB282A59F400B5466A /* Main.storyboard */,
+				485C27EE282A59F400B5466A /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		485C27F4282A59F400B5466A /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				485C27F5282A59F400B5466A /* AppDelegate.swift */,
+				485C27F7282A59F400B5466A /* Main.storyboard */,
+				485C27FA282A59F400B5466A /* bonjourrStartpage.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		485C2803282A59F400B5466A /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				485C2804282A59F400B5466A /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		485C280D282A59F400B5466A /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				485C280E282A59F400B5466A /* Info.plist */,
+				485C280F282A59F400B5466A /* bonjourrStartpage.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		48CF69B5280584DE00E58007 /* bonjourrStartpage */ = {
+		485C27E0282A59F400B5466A /* bonjourrStartpage (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48CF69E2280584DF00E58007 /* Build configuration list for PBXNativeTarget "bonjourrStartpage" */;
+			buildConfigurationList = 485C2834282A59F400B5466A /* Build configuration list for PBXNativeTarget "bonjourrStartpage (iOS)" */;
 			buildPhases = (
-				48CF69B2280584DE00E58007 /* Sources */,
-				48CF69B3280584DE00E58007 /* Frameworks */,
-				48CF69B4280584DE00E58007 /* Resources */,
-				48CF69E1280584DF00E58007 /* Embed App Extensions */,
+				485C27DD282A59F400B5466A /* Sources */,
+				485C27DE282A59F400B5466A /* Frameworks */,
+				485C27DF282A59F400B5466A /* Resources */,
+				485C2833282A59F400B5466A /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				48CF69D6280584DF00E58007 /* PBXTargetDependency */,
+				485C2802282A59F400B5466A /* PBXTargetDependency */,
 			);
-			name = bonjourrStartpage;
-			productName = bonjourrStartpage;
-			productReference = 48CF69B6280584DE00E58007 /* Bonjourr Startpage.app */;
+			name = "bonjourrStartpage (iOS)";
+			productName = "bonjourrStartpage (iOS)";
+			productReference = 485C27E1282A59F400B5466A /* Bonjourr Startpage.app */;
 			productType = "com.apple.product-type.application";
 		};
-		48CF69D2280584DF00E58007 /* bonjourrStartpage Extension */ = {
+		485C27F2282A59F400B5466A /* bonjourrStartpage (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48CF69DE280584DF00E58007 /* Build configuration list for PBXNativeTarget "bonjourrStartpage Extension" */;
+			buildConfigurationList = 485C283B282A59F400B5466A /* Build configuration list for PBXNativeTarget "bonjourrStartpage (macOS)" */;
 			buildPhases = (
-				48CF69CF280584DF00E58007 /* Sources */,
-				48CF69D0280584DF00E58007 /* Frameworks */,
-				48CF69D1280584DF00E58007 /* Resources */,
+				485C27EF282A59F400B5466A /* Sources */,
+				485C27F0282A59F400B5466A /* Frameworks */,
+				485C27F1282A59F400B5466A /* Resources */,
+				485C283A282A59F400B5466A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				485C280C282A59F400B5466A /* PBXTargetDependency */,
+			);
+			name = "bonjourrStartpage (macOS)";
+			productName = "bonjourrStartpage (macOS)";
+			productReference = 485C27F3282A59F400B5466A /* Bonjourr Startpage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		485C27FE282A59F400B5466A /* bonjourrStartpage Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485C2830282A59F400B5466A /* Build configuration list for PBXNativeTarget "bonjourrStartpage Extension (iOS)" */;
+			buildPhases = (
+				485C27FB282A59F400B5466A /* Sources */,
+				485C27FC282A59F400B5466A /* Frameworks */,
+				485C27FD282A59F400B5466A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "bonjourrStartpage Extension";
-			productName = "bonjourrStartpage Extension";
-			productReference = 48CF69D3280584DF00E58007 /* bonjourrStartpage Extension.appex */;
+			name = "bonjourrStartpage Extension (iOS)";
+			productName = "bonjourrStartpage Extension (iOS)";
+			productReference = 485C27FF282A59F400B5466A /* bonjourrStartpage Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		485C2808282A59F400B5466A /* bonjourrStartpage Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485C2837282A59F400B5466A /* Build configuration list for PBXNativeTarget "bonjourrStartpage Extension (macOS)" */;
+			buildPhases = (
+				485C2805282A59F400B5466A /* Sources */,
+				485C2806282A59F400B5466A /* Frameworks */,
+				485C2807282A59F400B5466A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bonjourrStartpage Extension (macOS)";
+			productName = "bonjourrStartpage Extension (macOS)";
+			productReference = 485C2809282A59F400B5466A /* bonjourrStartpage Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		48CF69AE280584DE00E58007 /* Project object */ = {
+		485C27C5282A59F300B5466A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					48CF69B5280584DE00E58007 = {
-						CreatedOnToolsVersion = 13.3;
+					485C27E0282A59F400B5466A = {
+						CreatedOnToolsVersion = 13.3.1;
 					};
-					48CF69D2280584DF00E58007 = {
-						CreatedOnToolsVersion = 13.3;
+					485C27F2282A59F400B5466A = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					485C27FE282A59F400B5466A = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					485C2808282A59F400B5466A = {
+						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 48CF69B1280584DE00E58007 /* Build configuration list for PBXProject "bonjourrStartpage" */;
+			buildConfigurationList = 485C27C8282A59F300B5466A /* Build configuration list for PBXProject "bonjourrStartpage" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,86 +353,155 @@
 				en,
 				Base,
 			);
-			mainGroup = 48CF69AD280584DE00E58007;
-			productRefGroup = 48CF69B7280584DE00E58007 /* Products */;
+			mainGroup = 485C27C4282A59F300B5466A;
+			productRefGroup = 485C27E2282A59F400B5466A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				48CF69B5280584DE00E58007 /* bonjourrStartpage */,
-				48CF69D2280584DF00E58007 /* bonjourrStartpage Extension */,
+				485C27E0282A59F400B5466A /* bonjourrStartpage (iOS) */,
+				485C27F2282A59F400B5466A /* bonjourrStartpage (macOS) */,
+				485C27FE282A59F400B5466A /* bonjourrStartpage Extension (iOS) */,
+				485C2808282A59F400B5466A /* bonjourrStartpage Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		48CF69B4280584DE00E58007 /* Resources */ = {
+		485C27DF282A59F400B5466A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48CF69C9280584DE00E58007 /* Main.storyboard in Resources */,
-				48CF69C4280584DE00E58007 /* Script.js in Resources */,
-				48CF69BE280584DE00E58007 /* Main.html in Resources */,
-				489162812805D56C009A9D9C /* apple-touch-icon.png in Resources */,
-				48C99861282A43420067263A /* Assets.xcassets in Resources */,
-				48CF69C2280584DE00E58007 /* Style.css in Resources */,
+				485C27EA282A59F400B5466A /* LaunchScreen.storyboard in Resources */,
+				485C2810282A59F400B5466A /* Main.html in Resources */,
+				485C2816282A59F400B5466A /* Script.js in Resources */,
+				485C283F282A5A1B00B5466A /* Assets.xcassets in Resources */,
+				485C27ED282A59F400B5466A /* Main.storyboard in Resources */,
+				485C285B282A5D4500B5466A /* apple-touch-icon.png in Resources */,
+				485C2814282A59F400B5466A /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48CF69D1280584DF00E58007 /* Resources */ = {
+		485C27F1282A59F400B5466A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48B01F3A2819202C007A409C /* index.html in Resources */,
-				48B01F3628191F4B007A409C /* src in Resources */,
-				48B01F392819202C007A409C /* settings.html in Resources */,
-				489162832805DF1F009A9D9C /* _locales in Resources */,
-				48D5D849280DE10300CADBBD /* manifest.json in Resources */,
+				485C2815282A59F400B5466A /* Style.css in Resources */,
+				485C27F9282A59F400B5466A /* Main.storyboard in Resources */,
+				485C2817282A59F400B5466A /* Script.js in Resources */,
+				485C2840282A5A1B00B5466A /* Assets.xcassets in Resources */,
+				485C2811282A59F400B5466A /* Main.html in Resources */,
+				485C285C282A5D4500B5466A /* apple-touch-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485C27FD282A59F400B5466A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C93E44293602E600BF7FB9 /* _locales in Resources */,
+				48C93E3C293602E600BF7FB9 /* background.html in Resources */,
+				48C93E40293602E600BF7FB9 /* index.html in Resources */,
+				48C93E3E293602E600BF7FB9 /* manifest.json in Resources */,
+				48C93E3A293602E600BF7FB9 /* settings.html in Resources */,
+				48C93E42293602E600BF7FB9 /* src in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485C2807282A59F400B5466A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C93E45293602E600BF7FB9 /* _locales in Resources */,
+				48C93E3D293602E600BF7FB9 /* background.html in Resources */,
+				48C93E41293602E600BF7FB9 /* index.html in Resources */,
+				48C93E3F293602E600BF7FB9 /* manifest.json in Resources */,
+				48C93E3B293602E600BF7FB9 /* settings.html in Resources */,
+				48C93E43293602E600BF7FB9 /* src in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		48CF69B2280584DE00E58007 /* Sources */ = {
+		485C27DD282A59F400B5466A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48CF69C6280584DE00E58007 /* ViewController.swift in Sources */,
-				48CF69BA280584DE00E58007 /* AppDelegate.swift in Sources */,
+				485C2818282A59F400B5466A /* ViewController.swift in Sources */,
+				485C27E5282A59F400B5466A /* AppDelegate.swift in Sources */,
+				485C27E7282A59F400B5466A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48CF69CF280584DF00E58007 /* Sources */ = {
+		485C27EF282A59F400B5466A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48CF69D9280584DF00E58007 /* SafariWebExtensionHandler.swift in Sources */,
+				485C2819282A59F400B5466A /* ViewController.swift in Sources */,
+				485C27F6282A59F400B5466A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485C27FB282A59F400B5466A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485C281C282A59F400B5466A /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485C2805282A59F400B5466A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485C281D282A59F400B5466A /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		48CF69D6280584DF00E58007 /* PBXTargetDependency */ = {
+		485C2802282A59F400B5466A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 48CF69D2280584DF00E58007 /* bonjourrStartpage Extension */;
-			targetProxy = 48CF69D5280584DF00E58007 /* PBXContainerItemProxy */;
+			target = 485C27FE282A59F400B5466A /* bonjourrStartpage Extension (iOS) */;
+			targetProxy = 485C2801282A59F400B5466A /* PBXContainerItemProxy */;
+		};
+		485C280C282A59F400B5466A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 485C2808282A59F400B5466A /* bonjourrStartpage Extension (macOS) */;
+			targetProxy = 485C280B282A59F400B5466A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		48CF69BC280584DE00E58007 /* Main.html */ = {
+		485C27CB282A59F300B5466A /* Main.html */ = {
 			isa = PBXVariantGroup;
 			children = (
-				48CF69BD280584DE00E58007 /* Base */,
+				485C27CC282A59F300B5466A /* Base */,
 			);
 			name = Main.html;
 			sourceTree = "<group>";
 		};
-		48CF69C7280584DE00E58007 /* Main.storyboard */ = {
+		485C27E8282A59F400B5466A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				48CF69C8280584DE00E58007 /* Base */,
+				485C27E9282A59F400B5466A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		485C27EB282A59F400B5466A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485C27EC282A59F400B5466A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		485C27F7282A59F400B5466A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485C27F8282A59F400B5466A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -310,7 +509,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		48CF69DC280584DF00E58007 /* Debug */ = {
+		485C282E282A59F400B5466A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -343,6 +542,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -360,17 +560,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		48CF69DD280584DF00E58007 /* Release */ = {
+		485C282F282A59F400B5466A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -403,6 +601,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -414,26 +613,165 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		48CF69DF280584DF00E58007 /* Debug */ = {
+		485C2831282A59F400B5466A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "bonjourrStartpage Extension/bonjourrStartpage_Extension.entitlements";
-				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = GZK4VLGQ5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "bonjourrStartpage Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.15.3;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonjourr.bonjourrStartpage.Extension;
+				PRODUCT_NAME = "bonjourrStartpage Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		485C2832282A59F400B5466A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = GZK4VLGQ5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "bonjourrStartpage Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.15.3;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonjourr.bonjourrStartpage.Extension;
+				PRODUCT_NAME = "bonjourrStartpage Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		485C2835282A59F400B5466A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = GZK4VLGQ5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Bonjourr;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.15.3;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonjourr.bonjourrStartpage;
+				PRODUCT_NAME = "Bonjourr Startpage";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		485C2836282A59F400B5466A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = GZK4VLGQ5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Bonjourr;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.15.3;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonjourr.bonjourrStartpage;
+				PRODUCT_NAME = "Bonjourr Startpage";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		485C2838282A59F400B5466A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/bonjourrStartpage.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "bonjourrStartpage Extension/Info.plist";
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "bonjourrStartpage Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -441,31 +779,33 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.13.1;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.15.3;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bonjourr.bonjourrStartpage.Extension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "bonjourrStartpage Extension";
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		48CF69E0280584DF00E58007 /* Release */ = {
+		485C2839282A59F400B5466A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "bonjourrStartpage Extension/bonjourrStartpage_Extension.entitlements";
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/bonjourrStartpage.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 15;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "bonjourrStartpage Extension/Info.plist";
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "bonjourrStartpage Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -473,45 +813,45 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.13.1;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.15.3;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bonjourr.bonjourrStartpage.Extension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "bonjourrStartpage Extension";
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		48CF69E3280584DF00E58007 /* Debug */ = {
+		485C283C282A59F400B5466A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = bonjourrStartpage/bonjourrStartpage.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/bonjourrStartpage.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 15;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = bonjourrStartpage/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = bonjourrStartpage;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.13.1;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.15.3;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -520,36 +860,36 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bonjourr.bonjourrStartpage;
 				PRODUCT_NAME = "Bonjourr Startpage";
+				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		48CF69E4280584DF00E58007 /* Release */ = {
+		485C283D282A59F400B5466A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = bonjourrStartpage/bonjourrStartpage.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/bonjourrStartpage.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 15;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = bonjourrStartpage/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = bonjourrStartpage;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.13.1;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.15.3;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -558,6 +898,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bonjourr.bonjourrStartpage;
 				PRODUCT_NAME = "Bonjourr Startpage";
+				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -566,34 +907,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		48CF69B1280584DE00E58007 /* Build configuration list for PBXProject "bonjourrStartpage" */ = {
+		485C27C8282A59F300B5466A /* Build configuration list for PBXProject "bonjourrStartpage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				48CF69DC280584DF00E58007 /* Debug */,
-				48CF69DD280584DF00E58007 /* Release */,
+				485C282E282A59F400B5466A /* Debug */,
+				485C282F282A59F400B5466A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		48CF69DE280584DF00E58007 /* Build configuration list for PBXNativeTarget "bonjourrStartpage Extension" */ = {
+		485C2830282A59F400B5466A /* Build configuration list for PBXNativeTarget "bonjourrStartpage Extension (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				48CF69DF280584DF00E58007 /* Debug */,
-				48CF69E0280584DF00E58007 /* Release */,
+				485C2831282A59F400B5466A /* Debug */,
+				485C2832282A59F400B5466A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		48CF69E2280584DF00E58007 /* Build configuration list for PBXNativeTarget "bonjourrStartpage" */ = {
+		485C2834282A59F400B5466A /* Build configuration list for PBXNativeTarget "bonjourrStartpage (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				48CF69E3280584DF00E58007 /* Debug */,
-				48CF69E4280584DF00E58007 /* Release */,
+				485C2835282A59F400B5466A /* Debug */,
+				485C2836282A59F400B5466A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485C2837282A59F400B5466A /* Build configuration list for PBXNativeTarget "bonjourrStartpage Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485C2838282A59F400B5466A /* Debug */,
+				485C2839282A59F400B5466A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485C283B282A59F400B5466A /* Build configuration list for PBXNativeTarget "bonjourrStartpage (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485C283C282A59F400B5466A /* Debug */,
+				485C283D282A59F400B5466A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 48CF69AE280584DE00E58007 /* Project object */;
+	rootObject = 485C27C5282A59F300B5466A /* Project object */;
 }
