@@ -31,8 +31,6 @@
 		485C285C282A5D4500B5466A /* apple-touch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 485C285A282A5D4500B5466A /* apple-touch-icon.png */; };
 		48C93E3A293602E600BF7FB9 /* settings.html in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E34293602E600BF7FB9 /* settings.html */; };
 		48C93E3B293602E600BF7FB9 /* settings.html in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E34293602E600BF7FB9 /* settings.html */; };
-		48C93E3C293602E600BF7FB9 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E35293602E600BF7FB9 /* background.html */; };
-		48C93E3D293602E600BF7FB9 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E35293602E600BF7FB9 /* background.html */; };
 		48C93E3E293602E600BF7FB9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E36293602E600BF7FB9 /* manifest.json */; };
 		48C93E3F293602E600BF7FB9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E36293602E600BF7FB9 /* manifest.json */; };
 		48C93E40293602E600BF7FB9 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E37293602E600BF7FB9 /* index.html */; };
@@ -109,7 +107,6 @@
 		485C283E282A5A1B00B5466A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		485C285A282A5D4500B5466A /* apple-touch-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon.png"; sourceTree = "<group>"; };
 		48C93E34293602E600BF7FB9 /* settings.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = settings.html; path = ../../Bonjourr/release/safari/settings.html; sourceTree = "<group>"; };
-		48C93E35293602E600BF7FB9 /* background.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = background.html; path = ../../Bonjourr/release/safari/background.html; sourceTree = "<group>"; };
 		48C93E36293602E600BF7FB9 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = manifest.json; path = ../../Bonjourr/release/safari/manifest.json; sourceTree = "<group>"; };
 		48C93E37293602E600BF7FB9 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ../../Bonjourr/release/safari/index.html; sourceTree = "<group>"; };
 		48C93E38293602E600BF7FB9 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../Bonjourr/release/safari/src; sourceTree = "<group>"; };
@@ -186,7 +183,6 @@
 			isa = PBXGroup;
 			children = (
 				48C93E39293602E600BF7FB9 /* _locales */,
-				48C93E35293602E600BF7FB9 /* background.html */,
 				48C93E37293602E600BF7FB9 /* index.html */,
 				48C93E36293602E600BF7FB9 /* manifest.json */,
 				48C93E34293602E600BF7FB9 /* settings.html */,
@@ -329,7 +325,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					485C27E0282A59F400B5466A = {
 						CreatedOnToolsVersion = 13.3.1;
@@ -399,7 +395,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				48C93E44293602E600BF7FB9 /* _locales in Resources */,
-				48C93E3C293602E600BF7FB9 /* background.html in Resources */,
 				48C93E40293602E600BF7FB9 /* index.html in Resources */,
 				48C93E3E293602E600BF7FB9 /* manifest.json in Resources */,
 				48C93E3A293602E600BF7FB9 /* settings.html in Resources */,
@@ -412,7 +407,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				48C93E45293602E600BF7FB9 /* _locales in Resources */,
-				48C93E3D293602E600BF7FB9 /* background.html in Resources */,
 				48C93E41293602E600BF7FB9 /* index.html in Resources */,
 				48C93E3F293602E600BF7FB9 /* manifest.json in Resources */,
 				48C93E3B293602E600BF7FB9 /* settings.html in Resources */,
@@ -546,6 +540,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -605,6 +600,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
