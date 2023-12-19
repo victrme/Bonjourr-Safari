@@ -620,7 +620,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 30;
+				CURRENT_PROJECT_VERSION = 35;
 				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
@@ -632,7 +632,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.18.0;
+				MARKETING_VERSION = 1.18.4;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -651,7 +651,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 30;
+				CURRENT_PROJECT_VERSION = 35;
 				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
@@ -663,7 +663,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.18.0;
+				MARKETING_VERSION = 1.18.4;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -686,7 +686,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 30;
+				CURRENT_PROJECT_VERSION = 35;
 				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
@@ -702,7 +702,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.18.0;
+				MARKETING_VERSION = 1.18.4;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -725,7 +725,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 30;
+				CURRENT_PROJECT_VERSION = 35;
 				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
@@ -741,7 +741,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.18.0;
+				MARKETING_VERSION = 1.18.4;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -765,7 +765,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 30;
+				CURRENT_PROJECT_VERSION = 35;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -779,7 +779,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				MARKETING_VERSION = 1.18.0;
+				MARKETING_VERSION = 1.18.4;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -801,7 +801,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 30;
+				CURRENT_PROJECT_VERSION = 35;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -815,7 +815,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				MARKETING_VERSION = 1.18.0;
+				MARKETING_VERSION = 1.18.4;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -839,7 +839,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/bonjourrStartpage.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 30;
+				CURRENT_PROJECT_VERSION = 35;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -853,7 +853,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				MARKETING_VERSION = 1.18.0;
+				MARKETING_VERSION = 1.18.4;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -878,7 +878,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/bonjourrStartpage.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 30;
+				CURRENT_PROJECT_VERSION = 35;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -892,7 +892,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				MARKETING_VERSION = 1.18.0;
+				MARKETING_VERSION = 1.18.4;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
