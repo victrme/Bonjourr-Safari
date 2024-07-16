@@ -15,20 +15,12 @@
 		485C27F9282A59F400B5466A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485C27F7282A59F400B5466A /* Main.storyboard */; };
 		485C2800282A59F400B5466A /* bonjourrStartpage Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 485C27FF282A59F400B5466A /* bonjourrStartpage Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		485C280A282A59F400B5466A /* bonjourrStartpage Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 485C2809282A59F400B5466A /* bonjourrStartpage Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		485C2810282A59F400B5466A /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 485C27CB282A59F300B5466A /* Main.html */; };
-		485C2811282A59F400B5466A /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 485C27CB282A59F300B5466A /* Main.html */; };
-		485C2814282A59F400B5466A /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 485C27CE282A59F300B5466A /* Style.css */; };
-		485C2815282A59F400B5466A /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 485C27CE282A59F300B5466A /* Style.css */; };
-		485C2816282A59F400B5466A /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 485C27CF282A59F300B5466A /* Script.js */; };
-		485C2817282A59F400B5466A /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 485C27CF282A59F300B5466A /* Script.js */; };
-		485C2818282A59F400B5466A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C27D0282A59F300B5466A /* ViewController.swift */; };
-		485C2819282A59F400B5466A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C27D0282A59F300B5466A /* ViewController.swift */; };
 		485C281C282A59F400B5466A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C27D3282A59F400B5466A /* SafariWebExtensionHandler.swift */; };
 		485C281D282A59F400B5466A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C27D3282A59F400B5466A /* SafariWebExtensionHandler.swift */; };
 		485C283F282A5A1B00B5466A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485C283E282A5A1B00B5466A /* Assets.xcassets */; };
 		485C2840282A5A1B00B5466A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485C283E282A5A1B00B5466A /* Assets.xcassets */; };
-		485C285B282A5D4500B5466A /* apple-touch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 485C285A282A5D4500B5466A /* apple-touch-icon.png */; };
-		485C285C282A5D4500B5466A /* apple-touch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 485C285A282A5D4500B5466A /* apple-touch-icon.png */; };
+		4881C1B02C465C9C0014D3A9 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881C1AF2C465C9C0014D3A9 /* SwiftUIView.swift */; };
+		4881C1B12C465C9C0014D3A9 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881C1AF2C465C9C0014D3A9 /* SwiftUIView.swift */; };
 		48C93E3A293602E600BF7FB9 /* settings.html in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E34293602E600BF7FB9 /* settings.html */; };
 		48C93E3B293602E600BF7FB9 /* settings.html in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E34293602E600BF7FB9 /* settings.html */; };
 		48C93E3E293602E600BF7FB9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E36293602E600BF7FB9 /* manifest.json */; };
@@ -84,10 +76,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		485C27CC282A59F300B5466A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		485C27CE282A59F300B5466A /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
-		485C27CF282A59F300B5466A /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
-		485C27D0282A59F300B5466A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		485C27D3282A59F400B5466A /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		485C27E1282A59F400B5466A /* Bonjourr Startpage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bonjourr Startpage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		485C27E4282A59F400B5466A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,7 +93,7 @@
 		485C280E282A59F400B5466A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		485C280F282A59F400B5466A /* bonjourrStartpage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bonjourrStartpage.entitlements; sourceTree = "<group>"; };
 		485C283E282A5A1B00B5466A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		485C285A282A5D4500B5466A /* apple-touch-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon.png"; sourceTree = "<group>"; };
+		4881C1AF2C465C9C0014D3A9 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		48C93E34293602E600BF7FB9 /* settings.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = settings.html; path = ../../Bonjourr/release/safari/settings.html; sourceTree = "<group>"; };
 		48C93E36293602E600BF7FB9 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = manifest.json; path = ../../Bonjourr/release/safari/manifest.json; sourceTree = "<group>"; };
 		48C93E37293602E600BF7FB9 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ../../Bonjourr/release/safari/index.html; sourceTree = "<group>"; };
@@ -161,22 +149,10 @@
 		485C27C9282A59F300B5466A /* Shared (App) */ = {
 			isa = PBXGroup;
 			children = (
-				485C27D0282A59F300B5466A /* ViewController.swift */,
 				485C283E282A5A1B00B5466A /* Assets.xcassets */,
-				485C27CA282A59F300B5466A /* Resources */,
+				4881C1AF2C465C9C0014D3A9 /* SwiftUIView.swift */,
 			);
 			path = "Shared (App)";
-			sourceTree = "<group>";
-		};
-		485C27CA282A59F300B5466A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				485C27CB282A59F300B5466A /* Main.html */,
-				485C285A282A5D4500B5466A /* apple-touch-icon.png */,
-				485C27CE282A59F300B5466A /* Style.css */,
-				485C27CF282A59F300B5466A /* Script.js */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		485C27D2282A59F400B5466A /* Shared (Extension) */ = {
@@ -368,12 +344,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				485C27EA282A59F400B5466A /* LaunchScreen.storyboard in Resources */,
-				485C2810282A59F400B5466A /* Main.html in Resources */,
-				485C2816282A59F400B5466A /* Script.js in Resources */,
 				485C283F282A5A1B00B5466A /* Assets.xcassets in Resources */,
 				485C27ED282A59F400B5466A /* Main.storyboard in Resources */,
-				485C285B282A5D4500B5466A /* apple-touch-icon.png in Resources */,
-				485C2814282A59F400B5466A /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,12 +353,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				485C2815282A59F400B5466A /* Style.css in Resources */,
 				485C27F9282A59F400B5466A /* Main.storyboard in Resources */,
-				485C2817282A59F400B5466A /* Script.js in Resources */,
 				485C2840282A5A1B00B5466A /* Assets.xcassets in Resources */,
-				485C2811282A59F400B5466A /* Main.html in Resources */,
-				485C285C282A5D4500B5466A /* apple-touch-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,8 +389,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				485C2818282A59F400B5466A /* ViewController.swift in Sources */,
 				485C27E5282A59F400B5466A /* AppDelegate.swift in Sources */,
+				4881C1B02C465C9C0014D3A9 /* SwiftUIView.swift in Sources */,
 				485C27E7282A59F400B5466A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,8 +399,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				485C2819282A59F400B5466A /* ViewController.swift in Sources */,
 				485C27F6282A59F400B5466A /* AppDelegate.swift in Sources */,
+				4881C1B12C465C9C0014D3A9 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,14 +436,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		485C27CB282A59F300B5466A /* Main.html */ = {
-			isa = PBXVariantGroup;
-			children = (
-				485C27CC282A59F300B5466A /* Base */,
-			);
-			name = Main.html;
-			sourceTree = "<group>";
-		};
 		485C27E8282A59F400B5466A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
