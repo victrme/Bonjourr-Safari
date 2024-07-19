@@ -1,6 +1,7 @@
 import SwiftUI
 import SafariServices
 
+
 var extensionBundleIdentifier = "com.bonjourr.bonjourrStartpage.Extension"
 
 struct ContentView: View {
@@ -11,26 +12,26 @@ struct ContentView: View {
                     Image("Icon")
                         .resizable()
                         .scaledToFit()
-                        .frame(height: 50)
+                        .frame(height: 40)
                     Text("Bonjourr")
                         .font(.largeTitle)
-                }
+                }.frame(width: .infinity, height: 100)
                 
+                #if os(macOS)
                 Button("Safari extension preferences") {
                     openSafariSettings()
                 }
                 .padding()
                 .foregroundColor(.white)
                 .cornerRadius(8)
+                #endif
             }
             
             VStack(alignment: .leading, spacing: 20) {
                 Text("Instructions")
                     .font(.title)
                 
-                Text("MacOS")
-                    .font(.title2)
-                
+                #if os(macOS)
                 Text("Here is how to manually enable Bonjourr on Safari MacOS:")
                 
                 VStack(alignment: .leading, spacing: 15) {
@@ -53,6 +54,29 @@ struct ContentView: View {
                         .cornerRadius(8)
                     
                 }
+                #endif
+                
+                #if os(iOS)
+                Text("Here is how to manually enable Bonjourr on Safari iOS:")
+
+                VStack(alignment: .leading, spacing: 20) {
+                    InstructionStep(number: 1, text: "Open settings > Safari > Extensions > Bonjourr * Minimalist Startpage")
+                    Image("ios-1")
+                        .resizable()
+                        .scaledToFit()
+                        .cornerRadius(8)
+                        .padding(16)
+                    
+                    InstructionStep(number: 2, text: "Select Bonjourr * Minimalist Startpage for the option 'Open new tabs with'")
+                    Image("ios-2")
+                        .resizable()
+                        .scaledToFit()
+                        .cornerRadius(8)
+                        .padding(16)
+            
+                    
+                }
+                #endif
             }
             .padding()
         }
@@ -74,30 +98,34 @@ struct InstructionStep: View {
 }
 
 func openSafariSettings() {
-    SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier) { error in
-        guard error == nil else {
-            // Insert code to inform the user that something went wrong.
-            return
+    #if os(macOS)
+        SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier) { error in
+            guard error == nil else {
+                // Insert code to inform the user that something went wrong.
+                return
+            }
+            
+            DispatchQueue.main.async {
+                NSApplication.shared.terminate(nil)
+            }
         }
-
-        DispatchQueue.main.async {
-            NSApplication.shared.terminate(nil)
-        }
-    }
+    #endif
 }
 
 func checkEnabledStateMacOS() -> Bool {
     var isEnabled = false
     
-    SFSafariExtensionManager.getStateOfSafariExtension(withIdentifier: extensionBundleIdentifier) { (state, error) in
-        guard let state = state, error == nil else {
-            // Insert code to inform the user that something went wrong.
-            return
-        }
+    #if os(macOS)
+        SFSafariExtensionManager.getStateOfSafariExtension(withIdentifier: extensionBundleIdentifier) { (state, error) in
+            guard let state = state, error == nil else {
+                // Insert code to inform the user that something went wrong.
+                return
+            }
 
-        
-        isEnabled = state.isEnabled
-    }
+            
+            isEnabled = state.isEnabled
+        }
+    #endif
     
     return isEnabled
 }
