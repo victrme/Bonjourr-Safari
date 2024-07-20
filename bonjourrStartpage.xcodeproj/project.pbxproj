@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		485C27F6282A59F400B5466A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C27F5282A59F400B5466A /* AppDelegate.swift */; };
 		485C2800282A59F400B5466A /* bonjourrStartpage Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 485C27FF282A59F400B5466A /* bonjourrStartpage Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		485C280A282A59F400B5466A /* bonjourrStartpage Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 485C2809282A59F400B5466A /* bonjourrStartpage Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		485C281C282A59F400B5466A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C27D3282A59F400B5466A /* SafariWebExtensionHandler.swift */; };
@@ -77,7 +76,6 @@
 		485C27E1282A59F400B5466A /* Bonjourr Startpage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bonjourr Startpage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		485C27EE282A59F400B5466A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		485C27F3282A59F400B5466A /* Bonjourr Startpage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bonjourr Startpage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		485C27F5282A59F400B5466A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		485C27FA282A59F400B5466A /* bonjourrStartpage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bonjourrStartpage.entitlements; sourceTree = "<group>"; };
 		485C27FF282A59F400B5466A /* bonjourrStartpage Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "bonjourrStartpage Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		485C2804282A59F400B5466A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -185,7 +183,6 @@
 		485C27F4282A59F400B5466A /* macOS (App) */ = {
 			isa = PBXGroup;
 			children = (
-				485C27F5282A59F400B5466A /* AppDelegate.swift */,
 				485C27FA282A59F400B5466A /* bonjourrStartpage.entitlements */,
 				488286222C4B94CC00839849 /* MainView.swift */,
 			);
@@ -386,7 +383,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				485C27F6282A59F400B5466A /* AppDelegate.swift in Sources */,
 				488286232C4B94CC00839849 /* MainView.swift in Sources */,
 				4881C1B12C465C9C0014D3A9 /* SharedView.swift in Sources */,
 			);
@@ -612,7 +608,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = Icon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 41;
@@ -656,7 +652,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = Icon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 41;
