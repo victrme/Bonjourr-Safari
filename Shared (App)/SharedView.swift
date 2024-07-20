@@ -3,22 +3,6 @@ import SafariServices
 
 var extensionBundleIdentifier = "com.bonjourr.bonjourrStartpage.Extension"
 
-struct InstructionStep: View {
-    let number: Int
-    let text: String
-    
-    var body: some View {
-        HStack(alignment: .top) {
-            Text("\(number).")
-                .font(.headline)
-                .padding(.trailing, 5)
-            
-            Text(text)
-            
-        }
-    }
-}
-
 struct Logo: View {
     let height: CGFloat
     
@@ -33,6 +17,21 @@ struct Logo: View {
                     .font(.largeTitle)
                     .padding(8)
             }.frame(height: height)
+        }
+    }
+}
+
+struct InstructionStep: View {
+    let number: Int
+    let text: String
+    
+    var body: some View {
+        HStack(alignment: .top) {
+            Text("\(number).")
+                .font(.headline)
+                .padding(.trailing, 5)
+            
+            Text(text)
         }
     }
 }

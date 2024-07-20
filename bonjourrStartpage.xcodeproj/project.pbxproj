@@ -14,8 +14,8 @@
 		485C281D282A59F400B5466A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C27D3282A59F400B5466A /* SafariWebExtensionHandler.swift */; };
 		485C283F282A5A1B00B5466A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485C283E282A5A1B00B5466A /* Assets.xcassets */; };
 		485C2840282A5A1B00B5466A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485C283E282A5A1B00B5466A /* Assets.xcassets */; };
-		4881C1B02C465C9C0014D3A9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881C1AF2C465C9C0014D3A9 /* MainView.swift */; };
-		4881C1B12C465C9C0014D3A9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881C1AF2C465C9C0014D3A9 /* MainView.swift */; };
+		4881C1B02C465C9C0014D3A9 /* SharedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881C1AF2C465C9C0014D3A9 /* SharedView.swift */; };
+		4881C1B12C465C9C0014D3A9 /* SharedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881C1AF2C465C9C0014D3A9 /* SharedView.swift */; };
 		488286232C4B94CC00839849 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488286222C4B94CC00839849 /* MainView.swift */; };
 		488286252C4B982000839849 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488286242C4B982000839849 /* MainView.swift */; };
 		48C93E3A293602E600BF7FB9 /* settings.html in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E34293602E600BF7FB9 /* settings.html */; };
@@ -85,7 +85,7 @@
 		485C280E282A59F400B5466A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		485C280F282A59F400B5466A /* bonjourrStartpage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bonjourrStartpage.entitlements; sourceTree = "<group>"; };
 		485C283E282A5A1B00B5466A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4881C1AF2C465C9C0014D3A9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4881C1AF2C465C9C0014D3A9 /* SharedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedView.swift; sourceTree = "<group>"; };
 		488286222C4B94CC00839849 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		488286242C4B982000839849 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		48C93E34293602E600BF7FB9 /* settings.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = settings.html; path = ../../Bonjourr/release/safari/settings.html; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				485C283E282A5A1B00B5466A /* Assets.xcassets */,
-				4881C1AF2C465C9C0014D3A9 /* MainView.swift */,
+				4881C1AF2C465C9C0014D3A9 /* SharedView.swift */,
 			);
 			path = "Shared (App)";
 			sourceTree = "<group>";
@@ -377,7 +377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4881C1B02C465C9C0014D3A9 /* MainView.swift in Sources */,
+				4881C1B02C465C9C0014D3A9 /* SharedView.swift in Sources */,
 				488286252C4B982000839849 /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,7 +388,7 @@
 			files = (
 				485C27F6282A59F400B5466A /* AppDelegate.swift in Sources */,
 				488286232C4B94CC00839849 /* MainView.swift in Sources */,
-				4881C1B12C465C9C0014D3A9 /* MainView.swift in Sources */,
+				4881C1B12C465C9C0014D3A9 /* SharedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
