@@ -7,20 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		485C27E5282A59F400B5466A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C27E4282A59F400B5466A /* AppDelegate.swift */; };
-		485C27E7282A59F400B5466A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C27E6282A59F400B5466A /* SceneDelegate.swift */; };
-		485C27EA282A59F400B5466A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485C27E8282A59F400B5466A /* LaunchScreen.storyboard */; };
-		485C27ED282A59F400B5466A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485C27EB282A59F400B5466A /* Main.storyboard */; };
 		485C27F6282A59F400B5466A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C27F5282A59F400B5466A /* AppDelegate.swift */; };
-		485C27F9282A59F400B5466A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485C27F7282A59F400B5466A /* Main.storyboard */; };
 		485C2800282A59F400B5466A /* bonjourrStartpage Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 485C27FF282A59F400B5466A /* bonjourrStartpage Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		485C280A282A59F400B5466A /* bonjourrStartpage Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 485C2809282A59F400B5466A /* bonjourrStartpage Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		485C281C282A59F400B5466A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C27D3282A59F400B5466A /* SafariWebExtensionHandler.swift */; };
 		485C281D282A59F400B5466A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C27D3282A59F400B5466A /* SafariWebExtensionHandler.swift */; };
 		485C283F282A5A1B00B5466A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485C283E282A5A1B00B5466A /* Assets.xcassets */; };
 		485C2840282A5A1B00B5466A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485C283E282A5A1B00B5466A /* Assets.xcassets */; };
-		4881C1B02C465C9C0014D3A9 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881C1AF2C465C9C0014D3A9 /* SwiftUIView.swift */; };
-		4881C1B12C465C9C0014D3A9 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881C1AF2C465C9C0014D3A9 /* SwiftUIView.swift */; };
+		4881C1B02C465C9C0014D3A9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881C1AF2C465C9C0014D3A9 /* MainView.swift */; };
+		4881C1B12C465C9C0014D3A9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881C1AF2C465C9C0014D3A9 /* MainView.swift */; };
+		488286232C4B94CC00839849 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488286222C4B94CC00839849 /* MainView.swift */; };
+		488286252C4B982000839849 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488286242C4B982000839849 /* MainView.swift */; };
 		48C93E3A293602E600BF7FB9 /* settings.html in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E34293602E600BF7FB9 /* settings.html */; };
 		48C93E3B293602E600BF7FB9 /* settings.html in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E34293602E600BF7FB9 /* settings.html */; };
 		48C93E3E293602E600BF7FB9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E36293602E600BF7FB9 /* manifest.json */; };
@@ -78,14 +75,9 @@
 /* Begin PBXFileReference section */
 		485C27D3282A59F400B5466A /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		485C27E1282A59F400B5466A /* Bonjourr Startpage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bonjourr Startpage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		485C27E4282A59F400B5466A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		485C27E6282A59F400B5466A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		485C27E9282A59F400B5466A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		485C27EC282A59F400B5466A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		485C27EE282A59F400B5466A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		485C27F3282A59F400B5466A /* Bonjourr Startpage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bonjourr Startpage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		485C27F5282A59F400B5466A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		485C27F8282A59F400B5466A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		485C27FA282A59F400B5466A /* bonjourrStartpage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bonjourrStartpage.entitlements; sourceTree = "<group>"; };
 		485C27FF282A59F400B5466A /* bonjourrStartpage Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "bonjourrStartpage Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		485C2804282A59F400B5466A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,7 +85,9 @@
 		485C280E282A59F400B5466A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		485C280F282A59F400B5466A /* bonjourrStartpage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bonjourrStartpage.entitlements; sourceTree = "<group>"; };
 		485C283E282A5A1B00B5466A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4881C1AF2C465C9C0014D3A9 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		4881C1AF2C465C9C0014D3A9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		488286222C4B94CC00839849 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		488286242C4B982000839849 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		48C93E34293602E600BF7FB9 /* settings.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = settings.html; path = ../../Bonjourr/release/safari/settings.html; sourceTree = "<group>"; };
 		48C93E36293602E600BF7FB9 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = manifest.json; path = ../../Bonjourr/release/safari/manifest.json; sourceTree = "<group>"; };
 		48C93E37293602E600BF7FB9 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ../../Bonjourr/release/safari/index.html; sourceTree = "<group>"; };
@@ -150,7 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				485C283E282A5A1B00B5466A /* Assets.xcassets */,
-				4881C1AF2C465C9C0014D3A9 /* SwiftUIView.swift */,
+				4881C1AF2C465C9C0014D3A9 /* MainView.swift */,
 			);
 			path = "Shared (App)";
 			sourceTree = "<group>";
@@ -182,11 +176,8 @@
 		485C27E3282A59F400B5466A /* iOS (App) */ = {
 			isa = PBXGroup;
 			children = (
-				485C27E4282A59F400B5466A /* AppDelegate.swift */,
-				485C27E6282A59F400B5466A /* SceneDelegate.swift */,
-				485C27E8282A59F400B5466A /* LaunchScreen.storyboard */,
-				485C27EB282A59F400B5466A /* Main.storyboard */,
 				485C27EE282A59F400B5466A /* Info.plist */,
+				488286242C4B982000839849 /* MainView.swift */,
 			);
 			path = "iOS (App)";
 			sourceTree = "<group>";
@@ -195,8 +186,8 @@
 			isa = PBXGroup;
 			children = (
 				485C27F5282A59F400B5466A /* AppDelegate.swift */,
-				485C27F7282A59F400B5466A /* Main.storyboard */,
 				485C27FA282A59F400B5466A /* bonjourrStartpage.entitlements */,
+				488286222C4B94CC00839849 /* MainView.swift */,
 			);
 			path = "macOS (App)";
 			sourceTree = "<group>";
@@ -343,9 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				485C27EA282A59F400B5466A /* LaunchScreen.storyboard in Resources */,
 				485C283F282A5A1B00B5466A /* Assets.xcassets in Resources */,
-				485C27ED282A59F400B5466A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +342,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				485C27F9282A59F400B5466A /* Main.storyboard in Resources */,
 				485C2840282A5A1B00B5466A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,9 +377,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				485C27E5282A59F400B5466A /* AppDelegate.swift in Sources */,
-				4881C1B02C465C9C0014D3A9 /* SwiftUIView.swift in Sources */,
-				485C27E7282A59F400B5466A /* SceneDelegate.swift in Sources */,
+				4881C1B02C465C9C0014D3A9 /* MainView.swift in Sources */,
+				488286252C4B982000839849 /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,7 +387,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				485C27F6282A59F400B5466A /* AppDelegate.swift in Sources */,
-				4881C1B12C465C9C0014D3A9 /* SwiftUIView.swift in Sources */,
+				488286232C4B94CC00839849 /* MainView.swift in Sources */,
+				4881C1B12C465C9C0014D3A9 /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,33 +422,6 @@
 			targetProxy = 485C280B282A59F400B5466A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		485C27E8282A59F400B5466A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				485C27E9282A59F400B5466A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		485C27EB282A59F400B5466A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				485C27EC282A59F400B5466A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		485C27F7282A59F400B5466A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				485C27F8282A59F400B5466A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		485C282E282A59F400B5466A /* Debug */ = {
