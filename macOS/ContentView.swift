@@ -2,7 +2,7 @@
 import SwiftUI
 import SafariServices
 
-struct MainView: View {
+struct ContentView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .center, spacing: 20) {
@@ -47,6 +47,21 @@ struct MainView: View {
     }
 }
 
+
+
+#Preview {
+    ContentView()
+}
+
+@main
+struct bonjourrStartpageApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
+
 func openSafariSettings() {
     SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier) { error in
         guard error == nil else {
@@ -73,8 +88,4 @@ func checkEnabledStateMacOS() -> Bool {
     }
 
     return isEnabled
-}
-
-#Preview {
-    MainView()
 }

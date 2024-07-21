@@ -1,14 +1,13 @@
 import SwiftUI
 
-struct MainView: View {
+struct ContentView: View {
     var body: some View {
         ScrollView {
-            Logo(height: 100)
+            Logo(height: 300)
             
             VStack(alignment: .leading, spacing: 20) {
                 Text("Instructions")
                     .font(.title)
-                
               
                 Text("Here is how to enable Bonjourr on Safari iOS:")
 
@@ -47,11 +46,21 @@ struct MainView: View {
                     Spacer(minLength: 20)
                 }
             }
-            .padding()
+            .padding(32)
         }
     }
 }
 
 #Preview {
-    MainView()
+    ContentView()
 }
+
+@main
+struct bonjourrStartpageApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
+
