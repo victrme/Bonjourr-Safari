@@ -23,7 +23,7 @@ Xcode files for building Bonjourr as a Safari extension.
 -   Show Develop menu in menu bar
 -   Develop > Allow Unsigned Extensions
 
-### Features not working
+## Features not working
 
 -   Bookmarks import: `browser.bookmarks` will never be available on Safari
 -   Safari doesn't have access to most visited websites
