@@ -2,20 +2,28 @@
   <img src="https://raw.githubusercontent.com/victrme/Bonjourr/master/src/assets/bonjourr.png" width="50%"></img>
 </p>
 
-# Install
+# Bonjourr for Safari
 
-### Start
+Xcode files for building Bonjourr as a Safari extension.
 
--   Clone this repo & the [original repo](https://github.com/victrme/Bonjourr)
--   Open `Bonjourr Startpage.xcodeproj` in Xcode (version >13.0)
--   Copy the files in `release/safari` from the original repo
+## Install
 
-### In Safari
+### Setup Xcode
 
--   Safari > Preferences > Advanced tab
--   **Show Develop menu in menu bar**
--   Develop > **Allow Unsigned Extensions**
+1.  Clone original repository: [victrme/Bonjourr](https://github.com/victrme/Bonjourr).
+2.  Install and build Bonjourr, [follow the instructions](https://github.com/victrme/Bonjourr?tab=readme-ov-file#run-locally) if needed.
+3.  Make sure `./release/safari` exists with the necessary files.
+4.  Launch Xcode. On the launcher, select: "Clone git repository..."
+5.  Add a reference of the build created in `release/safari` to `Shared (Extension)`
+6.  Build bonjourrStartpage for (macOS) or (iOS). A window with instructions should appear.
 
-# Features not working
+### MacOS development build
 
--   Bookmarks import (browser.bookmarks still not available on safari webExtension API)!
+-   In Safari status bar, got to Safari > Preferences > Advanced tab
+-   Show Develop menu in menu bar
+-   Develop > Allow Unsigned Extensions
+
+### Features not working
+
+-   Bookmarks import: `browser.bookmarks` will never be available on Safari
+-   Safari doesn't have access to most visited websites
