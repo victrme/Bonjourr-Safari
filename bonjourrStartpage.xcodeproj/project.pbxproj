@@ -13,6 +13,7 @@
 		485C281D282A59F400B5466A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C27D3282A59F400B5466A /* SafariWebExtensionHandler.swift */; };
 		485C283F282A5A1B00B5466A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485C283E282A5A1B00B5466A /* Assets.xcassets */; };
 		485C2840282A5A1B00B5466A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485C283E282A5A1B00B5466A /* Assets.xcassets */; };
+		486B72692C4F91790017B33B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 486B72682C4F91790017B33B /* Info.plist */; };
 		4881C1B02C465C9C0014D3A9 /* SharedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881C1AF2C465C9C0014D3A9 /* SharedViews.swift */; };
 		4881C1B12C465C9C0014D3A9 /* SharedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881C1AF2C465C9C0014D3A9 /* SharedViews.swift */; };
 		488286232C4B94CC00839849 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488286222C4B94CC00839849 /* ContentView.swift */; };
@@ -78,8 +79,9 @@
 		485C27FA282A59F400B5466A /* bonjourrStartpage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bonjourrStartpage.entitlements; sourceTree = "<group>"; };
 		485C27FF282A59F400B5466A /* bonjourrStartpage Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "bonjourrStartpage Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		485C2809282A59F400B5466A /* bonjourrStartpage Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "bonjourrStartpage Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		485C280E282A59F400B5466A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		485C283E282A5A1B00B5466A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		486B72672C4F86480017B33B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		486B72682C4F91790017B33B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4881C1AF2C465C9C0014D3A9 /* SharedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedViews.swift; sourceTree = "<group>"; };
 		488286222C4B94CC00839849 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		488286242C4B982000839849 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -127,8 +129,8 @@
 			children = (
 				485C27C9282A59F300B5466A /* Shared (App) */,
 				485C27D2282A59F400B5466A /* Shared (Extension) */,
-				485C27E3282A59F400B5466A /* iOS */,
-				485C27F4282A59F400B5466A /* macOS */,
+				485C27E3282A59F400B5466A /* iOS (App) */,
+				485C27F4282A59F400B5466A /* macOS (App) */,
 				485C27E2282A59F400B5466A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -146,7 +148,7 @@
 		485C27D2282A59F400B5466A /* Shared (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				485C280E282A59F400B5466A /* Info.plist */,
+				486B72672C4F86480017B33B /* Info.plist */,
 				48C93E39293602E600BF7FB9 /* _locales */,
 				48C93E37293602E600BF7FB9 /* index.html */,
 				48C93E36293602E600BF7FB9 /* manifest.json */,
@@ -168,20 +170,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		485C27E3282A59F400B5466A /* iOS */ = {
+		485C27E3282A59F400B5466A /* iOS (App) */ = {
 			isa = PBXGroup;
 			children = (
+				486B72682C4F91790017B33B /* Info.plist */,
 				488286242C4B982000839849 /* ContentView.swift */,
 			);
-			path = iOS;
+			path = "iOS (App)";
 			sourceTree = "<group>";
 		};
-		485C27F4282A59F400B5466A /* macOS */ = {
+		485C27F4282A59F400B5466A /* macOS (App) */ = {
 			isa = PBXGroup;
 			children = (
 				488286222C4B94CC00839849 /* ContentView.swift */,
 			);
-			path = macOS;
+			path = "macOS (App)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,6 +342,7 @@
 			files = (
 				48C93E45293602E600BF7FB9 /* _locales in Resources */,
 				48C93E41293602E600BF7FB9 /* index.html in Resources */,
+				486B72692C4F91790017B33B /* Info.plist in Resources */,
 				48C93E3F293602E600BF7FB9 /* manifest.json in Resources */,
 				48C93E3B293602E600BF7FB9 /* settings.html in Resources */,
 				48C93E43293602E600BF7FB9 /* src in Resources */,
@@ -517,7 +521,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 41;
+				CURRENT_PROJECT_VERSION = 42;
 				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Shared (Extension)/Info.plist";
@@ -529,7 +533,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 19.2.4;
+				MARKETING_VERSION = 20.0.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -540,6 +544,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -551,7 +556,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 41;
+				CURRENT_PROJECT_VERSION = 42;
 				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Shared (Extension)/Info.plist";
@@ -563,7 +568,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 19.2.4;
+				MARKETING_VERSION = 20.0.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -574,6 +579,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -589,13 +595,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 41;
+				CURRENT_PROJECT_VERSION = 42;
 				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "";
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Bonjourr;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -604,7 +612,7 @@
 					"@executable_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 19.2.4;
+				MARKETING_VERSION = 20.0.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -631,13 +639,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 41;
+				CURRENT_PROJECT_VERSION = 42;
 				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "";
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Bonjourr;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -646,7 +656,7 @@
 					"@executable_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 19.2.4;
+				MARKETING_VERSION = 20.0.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -674,7 +684,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 41;
+				CURRENT_PROJECT_VERSION = 42;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -688,7 +698,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 19.2.4;
+				MARKETING_VERSION = 20.0.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -710,7 +720,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 41;
+				CURRENT_PROJECT_VERSION = 42;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -724,7 +734,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 19.2.4;
+				MARKETING_VERSION = 20.0.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -748,7 +758,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Shared (App)/bonjourrStartpage.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 41;
+				CURRENT_PROJECT_VERSION = 42;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -762,7 +772,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 19.2.4;
+				MARKETING_VERSION = 20.0.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -787,7 +797,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Shared (App)/bonjourrStartpage.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 41;
+				CURRENT_PROJECT_VERSION = 42;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -801,7 +811,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 19.2.4;
+				MARKETING_VERSION = 20.0.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
