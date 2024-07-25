@@ -17,33 +17,12 @@ struct ContentView: View {
                     InstructionStep(number: 2, text: "Select Bonjourr * Minimalist Startpage for the option 'Open new tabs with'")
                     
                     InstructionStep(number: 3, text: "Open Safari iOS, Bonjourr should appear on every new tabs")
-                    
-                    Spacer(minLength: 20)
-                    
-                    Image("ios-1")
-                        .resizable()
-                        .scaledToFit()
-                        .cornerRadius(8)
-                        .padding(8)
-                    
-                    
-                    Text("Settings > Safari > Extensions > Bonjourr")
-                        .font(.caption)
-                        .italic()
-                    
-                    Spacer(minLength: 20)
-                    
-                    Image("ios-2")
-                        .resizable()
-                        .scaledToFit()
-                        .cornerRadius(8)
-                        .padding(8)
-                    
-                    Text("Open with Bonjourr")
-                        .font(.caption)
-                        .italic()
-                    
-                    Spacer(minLength: 20)
+                }
+                
+                VStack(spacing: 20) {
+                    Screenshot(name: "ios-1", text: "Settings > Safari > Extensions > Bonjourr")
+                  
+                    Screenshot(name: "ios-2", text: "Open with Bonjourr")
                 }
             }
             .padding()

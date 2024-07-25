@@ -15,6 +15,8 @@ struct ContentView: View {
                 .cornerRadius(8)
             }
             
+            Spacer(minLength: 80)
+            
             VStack(alignment: .leading, spacing: 20) {
                 Text("Instructions")
                     .font(.title)
@@ -29,28 +31,21 @@ struct ContentView: View {
                     InstructionStep(number: 3, text: "Lastly, back to the General tab, verify that 'New tabs open:' and 'New windows open:' are set to Bonjourr - Minimalist Startpage")
                     
                     Spacer(minLength: 20)
+                }
+                
+                VStack(alignment: .center, spacing: 16) {
+                    Screenshot(name: "macos-1", text: "Status bar after opening Safari")
+                 
+                    Screenshot(name: "macos-2", text: "Safari settings window, Extensions tab")
                     
-                    Image("macos-1")
-                        .resizable()
-                        .scaledToFit()
-                        .cornerRadius(8)
-                        .padding(16)
-                    
-                    Image("macos-2")
-                        .resizable()
-                        .scaledToFit()
-                        .cornerRadius(8)
-                    
-                    Image("macos-3")
-                        .resizable()
-                        .scaledToFit()
-                        .cornerRadius(8)
+                    Screenshot(name: "macos-3", text: "General Safari settings")
                 }
             }
             .padding(32)
         }
     }
 }
+
 
 
 

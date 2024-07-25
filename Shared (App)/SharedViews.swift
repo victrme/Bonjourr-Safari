@@ -35,3 +35,22 @@ struct InstructionStep: View {
         }
     }
 }
+
+struct Screenshot: View {
+    let name: String
+    let text: String
+    
+    var body: some View {
+        VStack() {
+            Image(name)
+                .resizable()
+                .scaledToFit()
+                .cornerRadius(8)
+                .padding(16)
+            
+            Text(text)
+                .font(.caption)
+                .italic()
+        }
+    }
+}
