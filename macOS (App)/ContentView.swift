@@ -15,8 +15,6 @@ struct ContentView: View {
                 .cornerRadius(8)
             }
             
-            Spacer(minLength: 80)
-            
             VStack(alignment: .leading, spacing: 20) {
                 Text("Instructions")
                     .font(.title)
@@ -56,9 +54,13 @@ struct ContentView: View {
 @main
 struct bonjourrStartpageApp: App {
     var body: some Scene {
-        WindowGroup("Bonjourr · Minimalist Startpage", content: {
+        WindowGroup {
             ContentView()
-        })
+                .frame(width: 600, height: 400)
+        }
+        .windowResizabilityContentSize()
+        .windowStyle(.hiddenTitleBar)
+        .windowToolbarStyle(.unified)
     }
 }
 

@@ -3,6 +3,17 @@ import SafariServices
 
 var extensionBundleIdentifier = "com.bonjourr.bonjourrStartpage.Extension"
 
+// https://forums.developer.apple.com/forums/thread/719389
+extension Scene {
+    func windowResizabilityContentSize() -> some Scene {
+        if #available(macOS 13.0, *) {
+            return windowResizability(.contentSize)
+        } else {
+            return self
+        }
+    }
+}
+
 struct Logo: View {
     let height: CGFloat
     
