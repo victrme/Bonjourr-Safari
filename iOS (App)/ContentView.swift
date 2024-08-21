@@ -1,10 +1,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.openURL) var openURL
+    
+    private func openSettings() {
+        openURL(URL(string: UIApplication.openSettingsURLString)!)
+    }
+    
     var body: some View {
         ScrollView {
-            Logo(height: 300)
+            Logo()
             
+            HStack() {
+                Button("Open Settings", systemImage: "gear", action: openSettings)
+                .foregroundColor(.white)
+                .cornerRadius(8)
+                
+            }.frame(minHeight: 300)
+        
             VStack(alignment: .leading, spacing: 20) {
                 Text("Instructions")
                     .font(.title)

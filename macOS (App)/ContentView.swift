@@ -3,25 +3,43 @@ import SwiftUI
 import SafariServices
 
 struct ContentView: View {
+    @Environment(\.openURL) var openURL
+    
     var body: some View {
         ScrollView {
-            VStack(alignment: .center, spacing: 20) {
-                Logo(height: 140)
+            VStack(alignment: .center, spacing: 40) {
+                Logo()
                 
-                Button("Safari extension preferences") {
-                    openSafariSettings()
+                HStack() {
+                    
+                    Button("Open Safari preferences", systemImage: "safari.fill") {
+                        openSafariSettings()
+                    }
+                    
+                    .foregroundColor(.white)
+                    .cornerRadius(8)
+                    
                 }
-                .foregroundColor(.white)
-                .cornerRadius(8)
-            }
+            }.frame(minHeight: 300)
+            
             
             VStack(alignment: .leading, spacing: 20) {
                 Text("Instructions")
-                    .font(.title)
+                    .font(.largeTitle)
+                    .fontWeight(.medium)
                 
                 Text("Here is how to manually enable Bonjourr on Safari MacOS:")
                 
                 VStack(alignment: .leading, spacing: 15) {
+                    
+                    HStack {
+                        Text("1.")
+                            .font(.headline)
+                            .padding(.trailing, 5)
+                        
+                        Text("Open Safari settings window by going to ") +
+                        Text("Safari > Settings...")
+                    }
                     InstructionStep(number: 1, text: "Open Safari settings window by going to Safari > Settings... or pressing CMD + ,.")
                     
                     InstructionStep(number: 2, text: "In the settings, go to the Extensions tab, and enable Bonjourr Startpage.")
