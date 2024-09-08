@@ -9,15 +9,16 @@ struct ContentView: View {
     
     var body: some View {
         ScrollView {
-            Logo()
-            
-            HStack() {
-                Button("Open Settings", systemImage: "gear", action: openSettings)
-                .foregroundColor(.white)
-                .cornerRadius(8)
+            VStack(alignment: .center) {
+                Logo().frame(maxWidth: 330)
                 
-            }.frame(minHeight: 300)
-        
+                HStack() {
+                    Button("Open settings", systemImage: "gear", action: openSettings)
+                    .cornerRadius(8)
+                    
+                }
+            }.frame(minHeight: 400)
+            
             VStack(alignment: .leading, spacing: 20) {
                 Text("Instructions")
                     .font(.title)
@@ -25,9 +26,9 @@ struct ContentView: View {
                 Text("Here is how to enable Bonjourr on Safari iOS:")
                 
                 VStack(alignment: .leading, spacing: 20) {
-                    InstructionStep(number: 1, text: "Open settings > Safari > Extensions > Bonjourr * Minimalist Startpage")
+                    InstructionStep(number: 1, text: "Settings > Safari > Extensions > [Bonjourr • Minimalist Startpage]")
                     
-                    InstructionStep(number: 2, text: "Select Bonjourr * Minimalist Startpage for the option 'Open new tabs with'")
+                    InstructionStep(number: 2, text: "Select [Bonjourr • Minimalist Startpage] for the option 'Open new tabs with'")
                     
                     InstructionStep(number: 3, text: "Open Safari iOS, Bonjourr should appear on every new tabs")
                 }
@@ -38,7 +39,7 @@ struct ContentView: View {
                     Screenshot(name: "ios-2", text: "Open with Bonjourr")
                 }
             }
-            .padding()
+            .padding(30)
         }
     }
 }

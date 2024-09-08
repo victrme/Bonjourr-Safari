@@ -3,25 +3,35 @@ import SwiftUI
 import SafariServices
 
 struct ContentView: View {
-    @Environment(\.openURL) var openURL
-    
     var body: some View {
         ScrollView {
             VStack(alignment: .center, spacing: 40) {
                 Logo()
-                
-                HStack() {
+            
+                VStack(alignment: .center, spacing: 22) {
                     
-                    Button("Open Safari preferences", systemImage: "safari.fill") {
-                        openSafariSettings()
+                    if !checkEnabledStateMacOS() {
+                        Label("Bonjourr is currently running. You can close this window and open a new tab.", systemImage: "checkmark.circle")
+                        
+                        Button("Close window") {
+                            NSApplication.shared.terminate(nil)
+                        }
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                     
+                    } else {
+                        Label("Bonjourr is not currently running, follow the instructions below if needed.", systemImage: "xmark.circle")
+                        
+                        Button("Open Safari preferences") {
+                            openSafariSettings()
+                        }
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
                     }
                     
-                    .foregroundColor(.white)
-                    .cornerRadius(8)
-                    
-                }
+                }.frame(width: 280)
+                
             }.frame(minHeight: 300)
-            
             
             VStack(alignment: .leading, spacing: 20) {
                 Text("Instructions")
@@ -101,12 +111,7 @@ func checkEnabledStateMacOS() -> Bool {
     var isEnabled = false
     
     SFSafariExtensionManager.getStateOfSafariExtension(withIdentifier: extensionBundleIdentifier) { (state, error) in
-        guard let state = state, error == nil else {
-            // Insert code to inform the user that something went wrong.
-            return
-        }
-        
-        isEnabled = state.isEnabled
+        isEnabled = state?.isEnabled ?? false
     }
     
     return isEnabled
