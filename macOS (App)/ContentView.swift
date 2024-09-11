@@ -47,19 +47,91 @@ struct ContentView: View {
                             .font(.headline)
                             .padding(.trailing, 5)
                         
-                        Text("Open Safari settings window by going to ") +
-                        Text("Safari > Settings...")
+                        Text("Open Safari. In the status bar, select")
+                        
+                        Text("Safari")
+                            .font(.system(size: 13))
+                            .fontWeight(.bold)
+                            .padding(.horizontal, 12)
+                            .padding(.vertical, 2)
+                            .background(Color.white)
+                            .cornerRadius(6)
+                        
+                        Text("then")
+                        
+                        Text("Settings...       ⌘,")
+                            .padding(.horizontal, 6)
+                            .padding(.vertical, 2)
+                            .background(Color.blue)
+                            .foregroundStyle(.white)
+                            .cornerRadius(6)
                     }
-                    InstructionStep(number: 1, text: "Open Safari settings window by going to Safari > Settings... or pressing CMD + ,.")
                     
-                    InstructionStep(number: 2, text: "In the settings, go to the Extensions tab, and enable Bonjourr Startpage.")
+                    HStack {
+                        Text("2.")
+                            .font(.headline)
+                            .padding(.trailing, 5)
+                        
+                        Text("Once the settings opened, go to")
+                        
+                        Label("Extensions", systemImage: "puzzlepiece.extension")
+                            .padding(.horizontal, 6)
+                            .padding(.vertical, 2)
+                            .background(.white)
+                            .cornerRadius(6)
+                    }
                     
-                    InstructionStep(number: 3, text: "Lastly, back to the General tab, verify that 'New tabs open:' and 'New windows open:' are set to Bonjourr - Minimalist Startpage")
+                    HStack {
+                        Text("3.")
+                            .font(.headline)
+                            .padding(.trailing, 5)
+                        
+                        Text("On the left menu, enable")
+                        Label("Bonjourr • Minim...", systemImage: "cloud.sun")
+                            .padding(.horizontal, 6)
+                            .padding(.vertical, 2)
+                            .background(.white)
+                            .cornerRadius(2)
+                    }
+                    
+                    HStack {
+                        Text("4.")
+                            .font(.headline)
+                            .padding(.trailing, 5)
+                        
+                        Text("Go back to the")
+                        Label("General", systemImage: "gearshape")
+                            .padding(.horizontal, 6)
+                            .padding(.vertical, 2)
+                            .background(.white)
+                            .cornerRadius(6)
+                        Text("tab")
+                    }
+                    
+                    HStack {
+                        Text("5.")
+                            .font(.headline)
+                            .padding(.trailing, 5)
+                        
+                        Text("Verify that \"New tabs\" and \"New windows\" open")
+                        Label("Bonjourr • Minim...", systemImage: "cloud.sun")
+                            .padding(.horizontal, 6)
+                            .padding(.vertical, 2)
+                            .background(.white)
+                            .cornerRadius(2)
+                    }
                     
                     Spacer(minLength: 20)
+                    
+                    Text("Screenshots")
+                        .font(.largeTitle)
+                        .fontWeight(.medium)
+                    
                 }
                 
                 VStack(alignment: .center, spacing: 16) {
+                    
+                      
                     Screenshot(name: "macos-1", text: "Status bar after opening Safari")
                  
                     Screenshot(name: "macos-2", text: "Safari settings window, Extensions tab")
@@ -89,6 +161,18 @@ struct bonjourrStartpageApp: App {
         .windowResizabilityContentSize()
         .windowStyle(.hiddenTitleBar)
         .windowToolbarStyle(.unified)
+    }
+}
+
+struct code: View {
+    let text: String
+    
+    var body: some View {
+        Text(text)
+            .padding(.horizontal, 6)
+            .background(Color.blue)
+            .foregroundColor(Color.white)
+            .cornerRadius(6)
     }
 }
 
