@@ -16,7 +16,7 @@ struct ContentView: View {
                         Button("Close window") {
                             NSApplication.shared.terminate(nil)
                         }
-                        .foregroundColor(.white)
+                        .foregroundColor(.accentColor)
                         .cornerRadius(8)
                      
                     } else {
@@ -54,7 +54,8 @@ struct ContentView: View {
                             .fontWeight(.bold)
                             .padding(.horizontal, 12)
                             .padding(.vertical, 2)
-                            .background(Color.white)
+                            .background(.white)
+                            .foregroundColor(.black)
                             .cornerRadius(6)
                         
                         Text("then")
@@ -62,7 +63,7 @@ struct ContentView: View {
                         Text("Settings...       ⌘,")
                             .padding(.horizontal, 6)
                             .padding(.vertical, 2)
-                            .background(Color.blue)
+                            .background(.blue)
                             .foregroundStyle(.white)
                             .cornerRadius(6)
                     }
@@ -78,6 +79,7 @@ struct ContentView: View {
                             .padding(.horizontal, 6)
                             .padding(.vertical, 2)
                             .background(.white)
+                            .foregroundColor(.black)
                             .cornerRadius(6)
                     }
                     
@@ -91,6 +93,7 @@ struct ContentView: View {
                             .padding(.horizontal, 6)
                             .padding(.vertical, 2)
                             .background(.white)
+                            .foregroundColor(.black)
                             .cornerRadius(2)
                     }
                     
@@ -104,6 +107,7 @@ struct ContentView: View {
                             .padding(.horizontal, 6)
                             .padding(.vertical, 2)
                             .background(.white)
+                            .foregroundColor(.black)
                             .cornerRadius(6)
                         Text("tab")
                     }
@@ -118,6 +122,7 @@ struct ContentView: View {
                             .padding(.horizontal, 6)
                             .padding(.vertical, 2)
                             .background(.white)
+                            .foregroundColor(.black)
                             .cornerRadius(2)
                     }
                     
@@ -175,6 +180,7 @@ struct code: View {
             .cornerRadius(6)
     }
 }
+
 
 // funcs
 
