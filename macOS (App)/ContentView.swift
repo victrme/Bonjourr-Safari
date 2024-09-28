@@ -54,8 +54,8 @@ struct ContentView: View {
                             .fontWeight(.bold)
                             .padding(.horizontal, 12)
                             .padding(.vertical, 2)
-                            .background(.white)
-                            .foregroundColor(.black)
+                            .background(Color("BackgroundColor"))
+                            .foregroundColor(.primary)
                             .cornerRadius(6)
                         
                         Text("then")
@@ -74,13 +74,7 @@ struct ContentView: View {
                             .padding(.trailing, 5)
                         
                         Text("Once the settings opened, go to")
-                        
-                        Label("Extensions", systemImage: "puzzlepiece.extension")
-                            .padding(.horizontal, 6)
-                            .padding(.vertical, 2)
-                            .background(.white)
-                            .foregroundColor(.black)
-                            .cornerRadius(6)
+                        codeLabel(text: "Extensions", label: "puzzlepiece.extension")
                     }
                     
                     HStack {
@@ -89,12 +83,7 @@ struct ContentView: View {
                             .padding(.trailing, 5)
                         
                         Text("On the left menu, enable")
-                        Label("Bonjourr • Minim...", systemImage: "cloud.sun")
-                            .padding(.horizontal, 6)
-                            .padding(.vertical, 2)
-                            .background(.white)
-                            .foregroundColor(.black)
-                            .cornerRadius(2)
+                        codeLabel(text: "Bonjourr • Minim...", label: "cloud.sun")
                     }
                     
                     HStack {
@@ -103,12 +92,7 @@ struct ContentView: View {
                             .padding(.trailing, 5)
                         
                         Text("Go back to the")
-                        Label("General", systemImage: "gearshape")
-                            .padding(.horizontal, 6)
-                            .padding(.vertical, 2)
-                            .background(.white)
-                            .foregroundColor(.black)
-                            .cornerRadius(6)
+                        codeLabel(text: "General", label: "gearshape")
                         Text("tab")
                     }
                     
@@ -118,12 +102,8 @@ struct ContentView: View {
                             .padding(.trailing, 5)
                         
                         Text("Verify that \"New tabs\" and \"New windows\" open")
-                        Label("Bonjourr • Minim...", systemImage: "cloud.sun")
-                            .padding(.horizontal, 6)
-                            .padding(.vertical, 2)
-                            .background(.white)
-                            .foregroundColor(.black)
-                            .cornerRadius(2)
+                        
+                        codeLabel(text: "Bonjourr • Minim...", label: "cloud.sun")
                     }
                     
                     Spacer(minLength: 20)
@@ -169,17 +149,20 @@ struct bonjourrStartpageApp: App {
     }
 }
 
-struct code: View {
+struct codeLabel: View {
     let text: String
+    let label: String
     
     var body: some View {
-        Text(text)
+        Label(text, systemImage: label)
             .padding(.horizontal, 6)
-            .background(Color.blue)
-            .foregroundColor(Color.white)
+            .padding(.vertical, 2)
+            .background(Color("BackgroundColor"))
+            .foregroundColor(Color("AccentColor"))
             .cornerRadius(6)
     }
 }
+
 
 
 // funcs

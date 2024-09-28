@@ -12,12 +12,20 @@ struct ContentView: View {
             VStack(alignment: .center) {
                 Logo().frame(maxWidth: 330)
                 
-                HStack() {
-                    Button("Open settings", systemImage: "gear", action: openSettings)
-                    .cornerRadius(8)
-                    
-                }
-            }.frame(minHeight: 400)
+                Link("Homepage", destination: URL(string: "https://bonjourr.fr")!).font(.caption)
+                
+                Link("Documentation", destination: URL(string: "https://bonjourr.fr/docs")!).font(.caption)
+
+                
+                
+//                HStack() {
+//                    Button("Open settings", systemImage: "gear", action: openSettings)
+//                    .cornerRadius(8)
+//                    
+//                }
+                
+                Text("Follow the instructions below to enable Bonjourr on Safari iOS. You can close this app once everything is running.")
+            }.frame(minHeight: 300).padding()
             
             VStack(alignment: .leading, spacing: 20) {
                 Text("Instructions")
