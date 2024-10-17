@@ -12,42 +12,57 @@ struct ContentView: View {
             VStack(alignment: .center) {
                 Logo().frame(maxWidth: 330)
                 
-                Link("Homepage", destination: URL(string: "https://bonjourr.fr")!).font(.caption)
-                
-                Link("Documentation", destination: URL(string: "https://bonjourr.fr/docs")!).font(.caption)
-
-                
-                
-//                HStack() {
-//                    Button("Open settings", systemImage: "gear", action: openSettings)
-//                    .cornerRadius(8)
-//                    
-//                }
-                
-                Text("Follow the instructions below to enable Bonjourr on Safari iOS. You can close this app once everything is running.")
-            }.frame(minHeight: 300).padding()
-            
-            VStack(alignment: .leading, spacing: 20) {
-                Text("Instructions")
-                    .font(.title)
-                
-                Text("Here is how to enable Bonjourr on Safari iOS:")
-                
-                VStack(alignment: .leading, spacing: 20) {
-                    InstructionStep(number: 1, text: "Settings > Safari > Extensions > [Bonjourr • Minimalist Startpage]")
+                HStack() {
+                    Link("Homepage", destination: URL(string: "https://bonjourr.fr")!)
+                        .font(.subheadline)
+                        .padding(.horizontal, 16)
+                        .padding(.vertical, 8)
+                        .foregroundStyle(Color(uiColor: .label))
+                        .background(Color(uiColor: .secondarySystemFill))
+                        .cornerRadius(8)
                     
-                    InstructionStep(number: 2, text: "Select [Bonjourr • Minimalist Startpage] for the option 'Open new tabs with'")
-                    
-                    InstructionStep(number: 3, text: "Open Safari iOS, Bonjourr should appear on every new tabs")
+                    Link("Documentation", destination: URL(string: "https://bonjourr.fr/docs")!)
+                        .font(.subheadline)
+                        .padding(.horizontal, 16)
+                        .padding(.vertical, 8)
+                        .foregroundStyle(Color(uiColor: .label))
+                        .background(Color(uiColor: .secondarySystemFill))
+                        .cornerRadius(8)
                 }
-                
-                VStack(spacing: 20) {
-                    Screenshot(name: "ios-1", text: "Settings > Safari > Extensions > Bonjourr")
-                  
-                    Screenshot(name: "ios-2", text: "Open with Bonjourr")
-                }
+                .padding(.top, 16)
             }
-            .padding(30)
+            .frame(minHeight: 300)
+            .padding()
+            
+            HStack() {
+                VStack(alignment: .leading, spacing: 20) {
+                    Text("Instructions")
+                        .font(.title)
+                    
+                    Text("In Settings, these are the buttons you have to click to enable Bonjourr on Safari iOS: ")
+                    
+                    VStack(alignment: .leading, spacing: 8) {
+                        settingsButton(labelText: "Apps", labelIcon:"apps.iphone", iconText: "", iconIcon: "chevron.right")
+                        settingsButton(labelText: "Safari", labelIcon: "safari.fill", iconText: "", iconIcon: "chevron.right")
+                        settingsButton(labelText: "Extensions", labelIcon: "", iconText: "", iconIcon: "chevron.right")
+                        settingsButton(labelText: "Bonjourr • Minim...", labelIcon:"cloud.sun", iconText: "Off", iconIcon: "chevron.right")
+                        settingsButton(labelText: "Allow Extension", labelIcon:"", iconText: "", iconIcon: "")
+                        settingsButton(labelText: "Open New Tabs", labelIcon:"", iconText: "On Start Page", iconIcon: "chevron.right")
+                        settingsButton(labelText: "Bonjourr • Minim...", labelIcon:"cloud.sun", iconText: "", iconIcon: "checkmark")
+                    }
+                    .padding()
+                    
+                    Text("After these steps, you can start using Bonjour by opening a new tab on Safari !")
+                  
+                }
+                .padding(20)
+                .padding(.top, 12)
+                .padding(.bottom, 24)
+                .background(Color(uiColor: .secondarySystemBackground))
+                .cornerRadius(20)
+                
+            }
+            .padding()
         }
     }
 }
@@ -65,3 +80,34 @@ struct bonjourrStartpageApp: App {
     }
 }
 
+struct settingsButton: View {
+    let labelText: String
+    let labelIcon: String
+    let iconText: String
+    let iconIcon: String
+    
+    var body: some View {
+        HStack() {
+            if labelIcon != "" {
+                Image(systemName: labelIcon)
+                    .symbolRenderingMode(.hierarchical)
+            }
+            
+            Text(labelText)
+                .frame(maxWidth: .infinity, alignment: .leading)
+              
+            Text(iconText)
+                .foregroundStyle(.gray)
+            
+            if iconIcon != "" {
+                Image(systemName: iconIcon)
+                    .symbolRenderingMode(.palette)
+                    .foregroundStyle(Color(uiColor: .secondaryLabel))
+            }
+               
+        }
+        .padding(12)
+        .background(Color(.iOSButtonsBackground))
+        .cornerRadius(8)
+    }
+}
