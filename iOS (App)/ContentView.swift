@@ -39,7 +39,7 @@ struct ContentView: View {
                     Text("Instructions")
                         .font(.title)
                     
-                    Text("In Settings, these are the buttons you have to click to enable Bonjourr on Safari iOS: ")
+                    Text("To enable Bonjourr, you need to open Settings and follow these steps:")
                     
                     VStack(alignment: .leading, spacing: 8) {
                         settingsButton(labelText: "Apps", labelIcon:"apps.iphone", iconText: "", iconIcon: "chevron.right")
@@ -52,7 +52,7 @@ struct ContentView: View {
                     }
                     .padding()
                     
-                    Text("After these steps, you can start using Bonjour by opening a new tab on Safari !")
+                    Text("Once done, Bonjourr will appear in Safari whenever you open a new tab.")
                   
                 }
                 .padding(20)
