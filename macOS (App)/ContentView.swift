@@ -146,6 +146,28 @@ struct bonjourrStartpageApp: App {
         .windowResizabilityContentSize()
         .windowStyle(.hiddenTitleBar)
         .windowToolbarStyle(.unified)
+//        .commands {
+//            CommandGroup(replacing: .systemServices) { }
+//            CommandGroup(replacing: .appInfo) { }
+//            CommandGroup(replacing: .appSettings) { }
+//            CommandGroup(replacing: .importExport) { }
+//            CommandGroup(replacing: .appVisibility) { }
+//            CommandGroup(replacing: .newItem) { }
+//            CommandGroup(replacing: .pasteboard) { }
+//            CommandGroup(replacing: .printItem) { }
+//            CommandGroup(replacing: .saveItem) { }
+//            CommandGroup(replacing: .sidebar) { }
+//        }
+//        .commands {
+//            CommandGroup(replacing: .textEditing) { }
+//            CommandGroup(replacing: .textFormatting) { }
+//            CommandGroup(replacing: .toolbar) { }
+//            CommandGroup(replacing: .undoRedo) { }
+//            CommandGroup(replacing: .windowArrangement) { }
+//            CommandGroup(replacing: .windowList) { }
+//            CommandGroup(replacing: .windowSize) { }
+//            CommandGroup(replacing: .help) { }
+//        }
     }
 }
 
