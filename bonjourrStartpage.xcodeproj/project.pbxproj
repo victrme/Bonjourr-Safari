@@ -18,8 +18,6 @@
 		4881C1B12C465C9C0014D3A9 /* SharedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881C1AF2C465C9C0014D3A9 /* SharedViews.swift */; };
 		488286232C4B94CC00839849 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488286222C4B94CC00839849 /* ContentView.swift */; };
 		488286252C4B982000839849 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488286242C4B982000839849 /* ContentView.swift */; };
-		489F66EC2CAD330100EECD13 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 489F66EB2CAD32F500EECD13 /* script.js */; };
-		489F66ED2CAD330100EECD13 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 489F66EB2CAD32F500EECD13 /* script.js */; };
 		48C93E3E293602E600BF7FB9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E36293602E600BF7FB9 /* manifest.json */; };
 		48C93E3F293602E600BF7FB9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E36293602E600BF7FB9 /* manifest.json */; };
 		48C93E40293602E600BF7FB9 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E37293602E600BF7FB9 /* index.html */; };
@@ -85,8 +83,6 @@
 		4881C1AF2C465C9C0014D3A9 /* SharedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedViews.swift; sourceTree = "<group>"; };
 		488286222C4B94CC00839849 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		488286242C4B982000839849 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		489F66EA2CAD2C6800EECD13 /* bonjourrStartpage (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "bonjourrStartpage (iOS).entitlements"; sourceTree = "<group>"; };
-		489F66EB2CAD32F500EECD13 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 		48C93E36293602E600BF7FB9 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = manifest.json; path = ../../Bonjourr/release/safari/manifest.json; sourceTree = "<group>"; };
 		48C93E37293602E600BF7FB9 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ../../Bonjourr/release/safari/index.html; sourceTree = "<group>"; };
 		48C93E38293602E600BF7FB9 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../Bonjourr/release/safari/src; sourceTree = "<group>"; };
@@ -270,7 +266,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1600;
+				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					485C27E0282A59F400B5466A = {
 						CreatedOnToolsVersion = 13.3.1;
@@ -436,6 +432,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -497,6 +494,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -519,8 +517,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 55;
-				DEVELOPMENT_TEAM = GZK4VLGQ5A;
+				CURRENT_PROJECT_VERSION = 56;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Shared (Extension)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "bonjourrStartpage Extension";
@@ -531,7 +528,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 21.0.0;
+				MARKETING_VERSION = 21.1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -554,8 +551,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 55;
-				DEVELOPMENT_TEAM = GZK4VLGQ5A;
+				CURRENT_PROJECT_VERSION = 56;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Shared (Extension)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "bonjourrStartpage Extension";
@@ -566,7 +562,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 21.0.0;
+				MARKETING_VERSION = 21.1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -593,8 +589,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "bonjourrStartpage (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 55;
-				DEVELOPMENT_TEAM = GZK4VLGQ5A;
+				CURRENT_PROJECT_VERSION = 56;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Bonjourr;
@@ -611,7 +606,7 @@
 					"@executable_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 21.0.0;
+				MARKETING_VERSION = 21.1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -638,8 +633,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "bonjourrStartpage (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 55;
-				DEVELOPMENT_TEAM = GZK4VLGQ5A;
+				CURRENT_PROJECT_VERSION = 56;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Bonjourr;
@@ -656,7 +650,7 @@
 					"@executable_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 21.0.0;
+				MARKETING_VERSION = 21.1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -684,9 +678,8 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 55;
+				CURRENT_PROJECT_VERSION = 56;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Shared (Extension)/Info.plist";
@@ -698,7 +691,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 21.0.0;
+				MARKETING_VERSION = 21.1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -720,9 +713,8 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 55;
+				CURRENT_PROJECT_VERSION = 56;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Shared (Extension)/Info.plist";
@@ -734,7 +726,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 21.0.0;
+				MARKETING_VERSION = 21.1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -757,9 +749,8 @@
 				CODE_SIGN_ENTITLEMENTS = "Shared (App)/bonjourrStartpage.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 55;
+				CURRENT_PROJECT_VERSION = 56;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = bonjourrStartpage;
@@ -771,7 +762,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.4;
-				MARKETING_VERSION = 21.0.0;
+				MARKETING_VERSION = 21.1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -795,9 +786,8 @@
 				CODE_SIGN_ENTITLEMENTS = "Shared (App)/bonjourrStartpage.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 55;
+				CURRENT_PROJECT_VERSION = 56;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = GZK4VLGQ5A;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = bonjourrStartpage;
@@ -809,7 +799,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.4;
-				MARKETING_VERSION = 21.0.0;
+				MARKETING_VERSION = 21.1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
