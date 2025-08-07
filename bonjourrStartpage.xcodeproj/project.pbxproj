@@ -18,6 +18,8 @@
 		4881C1B12C465C9C0014D3A9 /* SharedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881C1AF2C465C9C0014D3A9 /* SharedViews.swift */; };
 		488286232C4B94CC00839849 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488286222C4B94CC00839849 /* ContentView.swift */; };
 		488286252C4B982000839849 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488286242C4B982000839849 /* ContentView.swift */; };
+		489F66EC2CAD330100EECD13 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 489F66EB2CAD32F500EECD13 /* script.js */; };
+		489F66ED2CAD330100EECD13 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 489F66EB2CAD32F500EECD13 /* script.js */; };
 		48C93E3E293602E600BF7FB9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E36293602E600BF7FB9 /* manifest.json */; };
 		48C93E3F293602E600BF7FB9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E36293602E600BF7FB9 /* manifest.json */; };
 		48C93E40293602E600BF7FB9 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 48C93E37293602E600BF7FB9 /* index.html */; };
@@ -83,6 +85,8 @@
 		4881C1AF2C465C9C0014D3A9 /* SharedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedViews.swift; sourceTree = "<group>"; };
 		488286222C4B94CC00839849 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		488286242C4B982000839849 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		489F66EA2CAD2C6800EECD13 /* bonjourrStartpage (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "bonjourrStartpage (iOS).entitlements"; sourceTree = "<group>"; };
+		489F66EB2CAD32F500EECD13 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 		48C93E36293602E600BF7FB9 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = manifest.json; path = ../../Bonjourr/release/safari/manifest.json; sourceTree = "<group>"; };
 		48C93E37293602E600BF7FB9 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ../../Bonjourr/release/safari/index.html; sourceTree = "<group>"; };
 		48C93E38293602E600BF7FB9 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../Bonjourr/release/safari/src; sourceTree = "<group>"; };
