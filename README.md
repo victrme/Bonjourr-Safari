@@ -1,6 +1,8 @@
 _Safari version of Bonjourr has stopped receiving updates from the App Store.  
 More information in [our Ko-fi post](https://ko-fi.com/post/On-why-we-wont-be-renewing-our-Apple-Developer-ac-W7W31WQTJ5)._
 
+<br>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/victrme/Bonjourr/master/src/assets/bonjourr.png" width="50%"></img>
 </p>
