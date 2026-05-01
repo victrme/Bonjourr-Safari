@@ -1,3 +1,6 @@
+_Safari version of Bonjourr has stopped receiving updates from the App Store.  
+More information in [our Ko-fi post](https://ko-fi.com/post/On-why-we-wont-be-renewing-our-Apple-Developer-ac-W7W31WQTJ5)._
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/victrme/Bonjourr/master/src/assets/bonjourr.png" width="50%"></img>
 </p>
@@ -22,8 +25,3 @@ Xcode files for building Bonjourr as a Safari extension.
 -   In Safari status bar, got to Safari > Preferences > Advanced tab
 -   Show Develop menu in menu bar
 -   Develop > Allow Unsigned Extensions
-
-## Features not working
-
--   Bookmarks import: `browser.bookmarks` will never be available on Safari
--   Safari doesn't have access to most visited websites
